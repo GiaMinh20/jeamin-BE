@@ -1,10 +1,10 @@
-﻿using NhapHangV2.Entities.DomainEntities;
+﻿using jeamin.Entities.DomainEntities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace NhapHangV2.Entities.Auth
+namespace jeamin.Entities.Auth
 {
     /// <summary>
     /// Nhóm người dùng

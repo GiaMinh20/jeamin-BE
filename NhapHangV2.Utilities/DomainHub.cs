@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public interface IDomainHub
     {

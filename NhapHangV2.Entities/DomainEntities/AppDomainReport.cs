@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Utilities;
+﻿using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.DomainEntities
+namespace jeamin.Entities.DomainEntities
 {
     public class AppDomainReport
     {

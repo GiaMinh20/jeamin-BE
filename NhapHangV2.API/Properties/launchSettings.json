@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "NhapHangV2.API": {
+    "jeamin.API": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

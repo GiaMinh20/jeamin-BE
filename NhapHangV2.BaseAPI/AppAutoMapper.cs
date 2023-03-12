@@ -1,20 +1,20 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Models.Auth;
-using NhapHangV2.Request;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Models.Auth;
+using jeamin.Request;
+using jeamin.Models.Catalogue;
+using jeamin.Utilities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NhapHangV2.Request.Auth;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Auth;
-using NhapHangV2.Request.Catalogue;
-using NhapHangV2.Models.Report;
-using NhapHangV2.Entities.Report;
+using jeamin.Request.Auth;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Auth;
+using jeamin.Request.Catalogue;
+using jeamin.Models.Report;
+using jeamin.Entities.Report;
 
-namespace NhapHangV2.Models.AutoMapper
+namespace jeamin.Models.AutoMapper
 {
     public class AppAutoMapper : Profile
     {

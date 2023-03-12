@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.Entities;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Models;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Interface.Services;
+using jeamin.Models;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +16,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/tracking")]
     [ApiController]

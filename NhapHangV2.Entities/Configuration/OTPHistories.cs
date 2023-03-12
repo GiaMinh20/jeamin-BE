@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace NhapHangV2.Entities.Configuration
+namespace jeamin.Entities.Configuration
 {
     /// <summary>
     /// Lịch sử OTP

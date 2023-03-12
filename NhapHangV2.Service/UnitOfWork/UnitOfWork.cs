@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Repository;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.DbFactory;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Repository;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.DbFactory;
 
-namespace NhapHangV2.Service
+namespace jeamin.Service
 {
     public abstract class UnitOfWork : IUnitOfWork
     {

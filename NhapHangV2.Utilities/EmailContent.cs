@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net.Mail;
 using System.Text;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public class EmailContent
     {

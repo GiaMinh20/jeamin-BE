@@ -1,9 +1,9 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Utilities;
 using AutoMapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -16,14 +16,14 @@ using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Entities.Auth;
-using static NhapHangV2.Utilities.CoreContants;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Entities.Search;
+using jeamin.Entities.Auth;
+using static jeamin.Utilities.CoreContants;
 using Microsoft.Extensions.DependencyInjection;
 using OneSignalApi.Client;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class UserService : DomainService<Users, UserSearch>, IUserService
     {
@@ -363,6 +363,48 @@ namespace NhapHangV2.Service.Services
         }
 
         /// <summary>
+        /// Kiểm tra user đăng nhập
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public async Task<Users> VerifyForApp(string userName, string password)
+        {
+            var user = await Queryable
+                .Where(e => !e.Deleted
+                && (e.UserName == userName
+                || e.Phone == userName
+                || e.Email == userName
+                )
+                )
+                .FirstOrDefaultAsync();
+            if (user != null)
+            {
+                if (user.Status == (int)CoreContants.StatusUser.Locked)
+                {
+                    throw new Exception("Tài khoản đã bị khóa");
+                }
+                if (user.Status == (int)CoreContants.StatusUser.NotActive)
+                {
+                    throw new Exception("Tài khoản chưa được kích hoạt");
+                }
+                if (!user.IsAdmin && !user.IsCheckOTP)
+                {
+                    throw new Exception("Người dùng chưa xác thực OTP");
+                }
+                if (user.Password == SecurityUtilities.HashSHA1(password))
+                {
+                    return user;
+                }
+                else
+                    throw new AppException("Tên đăng nhập hoặc mật khẩu không chính xác");
+
+            }
+            else
+                throw new AppException("Tên đăng nhập hoặc mật khẩu không chính xác");
+        }
+
+        /// <summary>
         /// Kiểm tra pass word cũ đã giống chưa
         /// </summary>
         /// <param name="userId"></param>
@@ -625,7 +667,7 @@ namespace NhapHangV2.Service.Services
 
         private async Task<string> UnsubriseOneSignal(string playerId)
         {
-            var config = await this.unitOfWork.Repository<NhapHangV2.Entities.Configurations>().GetQueryable().FirstOrDefaultAsync();
+            var config = await this.unitOfWork.Repository<jeamin.Entities.Configurations>().GetQueryable().FirstOrDefaultAsync();
             var appConfig = new Configuration();
             appConfig.BasePath = "https://onesignal.com/api/v1";
             appConfig.AccessToken = config.RestAPIKey;

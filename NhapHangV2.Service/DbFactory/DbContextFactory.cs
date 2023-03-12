@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.DbFactory;
+﻿using jeamin.Interface.DbContext;
+using jeamin.Interface.DbFactory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.DbFactory
+namespace jeamin.Service.DbFactory
 {
     public abstract class DbContextFactory : IDbContextFactory
     {

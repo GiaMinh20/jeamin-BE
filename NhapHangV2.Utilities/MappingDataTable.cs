@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public static class MappingDataTable
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Request.DomainRequests
+namespace jeamin.Request.DomainRequests
 {
     public class AppDomainCatalogueRequest : AppDomainRequest
     {

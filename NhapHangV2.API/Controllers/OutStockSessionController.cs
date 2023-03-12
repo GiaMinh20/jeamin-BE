@@ -1,8 +1,8 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Utilities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -15,15 +15,15 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Net;
 using System.Threading.Tasks;
-using NhapHangV2.Models;
+using jeamin.Models;
 using System.ComponentModel;
 using Microsoft.AspNetCore.Authorization;
-using NhapHangV2.Request;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Entities.Auth;
-using NhapHangV2.BaseAPI.Controllers;
+using jeamin.Request;
+using jeamin.Entities.Search;
+using jeamin.Entities.Auth;
+using jeamin.BaseAPI.Controllers;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/out-stock-session")]
     [ApiController]

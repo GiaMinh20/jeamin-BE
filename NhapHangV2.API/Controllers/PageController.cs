@@ -4,19 +4,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Request;
-using NhapHangV2.Service.Services;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.DomainEntities;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Models;
+using jeamin.Models.Catalogue;
+using jeamin.Request;
+using jeamin.Service.Services;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +26,7 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/page")]
     [ApiController]

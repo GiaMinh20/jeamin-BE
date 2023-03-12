@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Interface.Services.Auth;
+﻿using jeamin.Interface.Services.Auth;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Primitives;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services.Auth
+namespace jeamin.Service.Services.Auth
 {
     public class TokenManagerService : ITokenManagerService
     {

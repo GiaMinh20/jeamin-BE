@@ -4,7 +4,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public sealed class StringCipher
     {

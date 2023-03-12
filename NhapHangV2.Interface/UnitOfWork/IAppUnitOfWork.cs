@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Interface.UnitOfWork
+namespace jeamin.Interface.UnitOfWork
 {
     public interface IAppUnitOfWork : IUnitOfWork
     {

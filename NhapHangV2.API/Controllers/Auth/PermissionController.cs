@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Entities.DomainEntities;
+﻿using jeamin.Entities.DomainEntities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,15 +8,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NhapHangV2.Models.Auth;
-using NhapHangV2.Interface.Services.Auth;
+using jeamin.Models.Auth;
+using jeamin.Interface.Services.Auth;
 using Microsoft.AspNetCore.Authorization;
 using System.ComponentModel;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Request.Auth;
-using NhapHangV2.Entities.Auth;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Request.Auth;
+using jeamin.Entities.Auth;
 
-namespace NhapHangV2.API.Controllers.Auth
+namespace jeamin.API.Controllers.Auth
 {
     [Route("api/permission")]
     [ApiController]

@@ -8,7 +8,7 @@ using System.IO;
 using System.Text;
 using static QRCoder.PayloadGenerator;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public class QRCodeUtilities
     {

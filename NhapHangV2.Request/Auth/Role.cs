@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Request.Auth
+namespace jeamin.Request.Auth
 {
     public class Role
     {

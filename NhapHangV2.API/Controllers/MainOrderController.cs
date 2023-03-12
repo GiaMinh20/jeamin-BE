@@ -5,18 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models;
-using NhapHangV2.Models.ExcelModels;
-using NhapHangV2.Request;
-using NhapHangV2.Service;
-using NhapHangV2.Service.Services;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Models;
+using jeamin.Models.ExcelModels;
+using jeamin.Request;
+using jeamin.Service;
+using jeamin.Service.Services;
+using jeamin.Utilities;
 using OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System;
 using System.Collections.Generic;
@@ -26,9 +26,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Net;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/main-order")]
     [Description("Quản lý danh sách đơn hàng")]

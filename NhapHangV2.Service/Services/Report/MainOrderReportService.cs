@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using NhapHangV2.Entities.Report;
-using NhapHangV2.Entities.Search.Report;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services.Report;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities.Report;
+using jeamin.Entities.Search.Report;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services.Report;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
-namespace NhapHangV2.Service.Services.Report
+namespace jeamin.Service.Services.Report
 {
     public class MainOrderReportService : ReportService<MainOrderReport, MainOrderReportSearch>, IMainOrderReportService
     {

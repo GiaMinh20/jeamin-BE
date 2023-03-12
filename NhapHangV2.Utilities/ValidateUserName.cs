@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public class ValidateUserName
     {

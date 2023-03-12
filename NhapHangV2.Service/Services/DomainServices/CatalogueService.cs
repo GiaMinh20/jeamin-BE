@@ -1,8 +1,8 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service;
+using jeamin.Utilities;
 using AutoMapper;
 using Ganss.Excel;
 using Microsoft.EntityFrameworkCore;
@@ -18,10 +18,10 @@ using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Entities.ExcelMapper;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Entities.ExcelMapper;
 
-namespace NhapHangV2.Service.Services.DomainServices
+namespace jeamin.Service.Services.DomainServices
 {
     public abstract class CatalogueService<E, T> : DomainService<E, T>, ICatalogueService<E, T> where E : AppDomainCatalogue, new() where T : CatalogueSearch, new()
     {
@@ -231,7 +231,7 @@ namespace NhapHangV2.Service.Services.DomainServices
             }
             if (dataTable.Rows.Count > 0)
             {
-                var connectionString = string.Format(configuration.GetConnectionString("NhapHangV2DbContext"));
+                var connectionString = string.Format(configuration.GetConnectionString("jeaminDbContext"));
                 using (SqlBulkCopy bc = new SqlBulkCopy(connectionString))
                 {
                     bc.DestinationTableName = this.GetTableName();
@@ -250,7 +250,7 @@ namespace NhapHangV2.Service.Services.DomainServices
         protected virtual DataTable SetDataTable()
         {
             DataTable table = new DataTable();
-            var connectionString = string.Format(configuration.GetConnectionString("NhapHangV2DbContext"));
+            var connectionString = string.Format(configuration.GetConnectionString("jeaminDbContext"));
             using (var adapter = new SqlDataAdapter($"SELECT TOP 0 * FROM " + this.GetTableName(), connectionString))
             {
                 adapter.Fill(table);

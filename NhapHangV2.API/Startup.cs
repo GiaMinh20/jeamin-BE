@@ -12,16 +12,16 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using NhapHangV2.BaseAPI;
-using NhapHangV2.Extensions;
-using NhapHangV2.Models.AutoMapper;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI;
+using jeamin.Extensions;
+using jeamin.Models.AutoMapper;
+using jeamin.Utilities;
 using Serilog;
 using System;
 using System.IO;
 using System.Text;
 
-namespace NhapHangV2.API
+namespace jeamin.API
 {
     public class Startup
     {
@@ -49,7 +49,7 @@ namespace NhapHangV2.API
         public void ConfigureServices(IServiceCollection services)
         {
             //SQL
-            services.AddDbContext<NhapHangV2.AppDbContext.AppDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("NhapHangV2DbContext")));
+            services.AddDbContext<jeamin.AppDbContext.AppDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("jeaminDbContext")));
 
             //Automapper
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -235,7 +235,7 @@ namespace NhapHangV2.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("../swagger/v1/swagger.json", "NhapHangV2");
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "jeamin");
                 c.InjectStylesheet("../css/swagger.min.css");
                 c.RoutePrefix = "docs";
             });

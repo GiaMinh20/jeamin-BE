@@ -1,13 +1,13 @@
-﻿using NhapHangV2.Request.DomainRequests;
+﻿using jeamin.Request.DomainRequests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Request
+namespace jeamin.Request
 {
     public class ContactUsRequest : AppDomainRequest
     {

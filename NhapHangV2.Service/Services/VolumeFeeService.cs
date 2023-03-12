@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Search;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.DomainServices;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class VolumeFeeService : DomainService<VolumeFee, VolumeFeeSearch>, IVolumeFeeService
     {

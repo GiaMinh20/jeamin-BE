@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.ExcelMapper
+namespace jeamin.Entities.ExcelMapper
 {
     public class SmallPackageMapper
     {

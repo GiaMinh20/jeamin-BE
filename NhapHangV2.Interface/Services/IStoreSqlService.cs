@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services
+namespace jeamin.Interface.Services
 {
     public interface IStoreSqlService<T>
     {

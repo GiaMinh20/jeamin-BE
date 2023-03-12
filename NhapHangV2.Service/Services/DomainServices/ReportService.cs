@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Utilities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,7 +14,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services.DomainServices
+namespace jeamin.Service.Services.DomainServices
 {
     public abstract class ReportService<E, T> : IReportService<E, T> where E : Entities.DomainEntities.AppDomainReport where T : BaseSearch, new()
     {

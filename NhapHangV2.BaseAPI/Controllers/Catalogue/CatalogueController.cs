@@ -1,6 +1,6 @@
-﻿using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Utilities;
+﻿using jeamin.Interface.Services.Catalogue;
+using jeamin.Models.Catalogue;
+using jeamin.Utilities;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.BaseAPI.Controllers.Catalogue
+namespace jeamin.BaseAPI.Controllers.Catalogue
 {
     [ApiController]
     public abstract class CatalogueController : ControllerBase

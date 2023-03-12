@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.SQLModels
+namespace jeamin.Entities.SQLModels
 {
     public class NumberOrder
     {

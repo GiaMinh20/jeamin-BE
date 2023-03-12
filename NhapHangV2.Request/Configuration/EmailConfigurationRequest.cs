@@ -1,11 +1,11 @@
-﻿using NhapHangV2.Request.DomainRequests;
-using NhapHangV2.Utilities;
+﻿using jeamin.Request.DomainRequests;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Request.Configuration
+namespace jeamin.Request.Configuration
 {
     /// <summary>
     /// Cấu hình email

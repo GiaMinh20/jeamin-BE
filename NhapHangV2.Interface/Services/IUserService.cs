@@ -1,17 +1,18 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Interface.Services.DomainServices;
+﻿using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Interface.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services
+namespace jeamin.Interface.Services
 {
     public interface IUserService : IDomainService<Users, UserSearch>
     {
         Task<int> CreateWithTokenAsync(Users item);
         Task<Users> Verify(string userName, string password);
+        Task<Users> VerifyForApp(string userName, string password);
         Task<bool> HasPermission(int userId, string controller, IList<int> permissions);
         Task<string[]> GetPermission(int userId, string controller);
         Task<string> CheckCurrentUserPassword(int userId, string password, string newPasssword);

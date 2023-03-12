@@ -1,17 +1,17 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Entities.SQLEntities;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Models;
-using NhapHangV2.Models.ExcelModels;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Entities.SQLEntities;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Models;
+using jeamin.Models.ExcelModels;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services
+namespace jeamin.Interface.Services
 {
     public interface IMainOrderService : IDomainService<MainOrder, MainOrderSearch>
     {

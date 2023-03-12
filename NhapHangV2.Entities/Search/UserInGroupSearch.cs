@@ -1,9 +1,9 @@
-﻿using NhapHangV2.Entities.DomainEntities;
+﻿using jeamin.Entities.DomainEntities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Entities.Search
+namespace jeamin.Entities.Search
 {
     public class UserInGroupSearch : CatalogueSearch
     {

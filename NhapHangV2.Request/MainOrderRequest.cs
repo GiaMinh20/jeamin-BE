@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Request.DomainRequests;
+﻿using jeamin.Request.DomainRequests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Request
+namespace jeamin.Request
 {
     public class MainOrderRequest : AppDomainRequest
     {

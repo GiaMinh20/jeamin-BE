@@ -6,19 +6,19 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.ExcelMapper;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Request;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.ExcelMapper;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Request;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using NPOI.SS.Formula.Functions;
 using OfficeOpenXml;
 using QRCoder;
@@ -32,11 +32,11 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 using static System.Net.Mime.MediaTypeNames;
 using Image = System.Drawing.Image;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class SmallPackageService : DomainService<SmallPackage, SmallPackageSearch>, ISmallPackageService
     {

@@ -4,19 +4,19 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Models;
-using NhapHangV2.Request;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services;
+using jeamin.Models;
+using jeamin.Request;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/price-change")]
     [ApiController]

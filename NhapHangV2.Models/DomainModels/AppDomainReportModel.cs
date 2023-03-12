@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Models.DomainModels
+namespace jeamin.Models.DomainModels
 {
     public class AppDomainReportModel
     {

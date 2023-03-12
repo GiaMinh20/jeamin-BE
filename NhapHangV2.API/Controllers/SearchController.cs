@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Request;
-using NhapHangV2.Utilities;
+using jeamin.Interface.Services;
+using jeamin.Request;
+using jeamin.Utilities;
 using System.ComponentModel;
 using System.Net;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/search")]
     [ApiController]

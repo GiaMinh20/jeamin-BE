@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Entities.Auth
+namespace jeamin.Entities.Auth
 {
     /// <summary>
     /// Danh mục quyền ứng với chức năng người dùng

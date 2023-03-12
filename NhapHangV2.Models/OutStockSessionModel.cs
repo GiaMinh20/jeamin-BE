@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Models.Auth;
-using NhapHangV2.Models.DomainModels;
+﻿using jeamin.Models.Auth;
+using jeamin.Models.DomainModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Models
+namespace jeamin.Models
 {
     public class OutStockSessionModel : AppDomainModel
     {

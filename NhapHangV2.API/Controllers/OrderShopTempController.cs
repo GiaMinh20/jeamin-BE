@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Models;
-using NhapHangV2.Request;
-using NhapHangV2.Request.DomainRequests;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Models;
+using jeamin.Request;
+using jeamin.Request.DomainRequests;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,9 +21,9 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Threading;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/order-shop-temp")]
     [Description("Quản lý shop trong giỏ hàng")]

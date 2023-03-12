@@ -1,9 +1,9 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities;
+using jeamin.Entities.Configuration;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Utilities;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,9 +13,9 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Service.Services.DomainServices;
 
-namespace NhapHangV2.Service.Services.Configurations
+namespace jeamin.Service.Services.Configurations
 {
     public class EmailConfigurationService : DomainService<EmailConfigurations, BaseSearch>, IEmailConfigurationService
     {

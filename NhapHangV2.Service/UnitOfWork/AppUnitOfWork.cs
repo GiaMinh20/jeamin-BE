@@ -1,14 +1,14 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.DbFactory;
-using NhapHangV2.Interface.Repository;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Repository;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.DbFactory;
+using jeamin.Interface.Repository;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Repository;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Service
+namespace jeamin.Service
 {
     public class AppUnitOfWork : UnitOfWork, IAppUnitOfWork
     {

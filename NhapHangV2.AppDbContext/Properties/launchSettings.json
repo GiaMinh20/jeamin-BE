@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "NhapHangV2.AppDbContext": {
+    "jeamin.AppDbContext": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

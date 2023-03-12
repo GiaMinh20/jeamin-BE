@@ -1,13 +1,13 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.DbFactory;
-using NhapHangV2.Interface.Repository;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.DbFactory;
+using jeamin.Interface.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NhapHangV2.Service.Repository
+namespace jeamin.Service.Repository
 {
     public class CatalogueRepository<T> : DomainRepository<T>, ICatalogueRepository<T> where T: AppDomainCatalogue
     {

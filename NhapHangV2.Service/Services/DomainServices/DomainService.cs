@@ -1,7 +1,7 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Interface;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Utilities;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Microsoft.Data.SqlClient;
@@ -14,9 +14,9 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.Services.DomainServices;
+using jeamin.Interface.Services.DomainServices;
 
-namespace NhapHangV2.Service.Services.DomainServices
+namespace jeamin.Service.Services.DomainServices
 {
     public abstract class DomainService<E, T> : IDomainService<E, T> where E : Entities.DomainEntities.AppDomain where T : BaseSearch, new()
     {

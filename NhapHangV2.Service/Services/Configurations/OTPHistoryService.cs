@@ -1,15 +1,15 @@
-﻿using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface;
-using NhapHangV2.Interface.UnitOfWork;
+﻿using jeamin.Entities.Configuration;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface;
+using jeamin.Interface.UnitOfWork;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Interface.Services.Configuration;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Interface.Services.Configuration;
 
-namespace NhapHangV2.Service.Services.Configurations
+namespace jeamin.Service.Services.Configurations
 {
     public class OTPHistoryService : DomainService<OTPHistories, BaseSearch>, IOTPHistoryService
     {

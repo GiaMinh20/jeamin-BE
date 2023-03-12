@@ -4,14 +4,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Models;
-using NhapHangV2.Request.DomainRequests;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Models;
+using jeamin.Request.DomainRequests;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +20,7 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/notification")]
     [ApiController]

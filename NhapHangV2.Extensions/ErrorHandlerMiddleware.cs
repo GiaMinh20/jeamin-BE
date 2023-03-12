@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Utilities;
+﻿using jeamin.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     public class ErrorHandlerMiddleware
     {

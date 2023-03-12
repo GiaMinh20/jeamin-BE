@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Entities.DomainEntities
+namespace jeamin.Entities.DomainEntities
 {
     public class AppDomainCatalogue : AppDomain
     {

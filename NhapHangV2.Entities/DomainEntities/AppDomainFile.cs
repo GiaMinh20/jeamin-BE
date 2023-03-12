@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.DomainEntities
+namespace jeamin.Entities.DomainEntities
 {
     public class AppDomainFile : AppDomain
     {

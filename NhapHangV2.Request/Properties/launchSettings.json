@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "NhapHangV2.Request": {
+    "jeamin.Request": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

@@ -2,25 +2,25 @@
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.Configurations;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Entities.Search;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.Configurations;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class OrderService : DomainService<Order, OrderSearch>, IOrderService
     {

@@ -1,6 +1,6 @@
-﻿using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Utilities;
+﻿using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Org.BouncyCastle.Crypto.Parameters;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     public class JwtMiddleware
     {

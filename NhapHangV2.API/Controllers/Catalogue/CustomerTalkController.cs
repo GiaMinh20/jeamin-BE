@@ -4,20 +4,20 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Request.Catalogue;
-using NhapHangV2.Utilities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.DomainEntities;
+using jeamin.Extensions;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Models.Catalogue;
+using jeamin.Request.Catalogue;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers.Catalogue
+namespace jeamin.API.Controllers.Catalogue
 {
     [Route("api/customer-talk")]
     [ApiController]

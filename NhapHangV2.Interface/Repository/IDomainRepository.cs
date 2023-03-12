@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Utilities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Utilities;
 using Microsoft.Data.SqlClient;
 
-namespace NhapHangV2.Interface.Repository
+namespace jeamin.Interface.Repository
 {
     public interface IDomainRepository<T> where T : Entities.DomainEntities.AppDomain
     {

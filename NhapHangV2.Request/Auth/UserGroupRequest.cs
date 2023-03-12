@@ -1,9 +1,9 @@
-﻿using NhapHangV2.Request.DomainRequests;
+﻿using jeamin.Request.DomainRequests;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Request.Auth
+namespace jeamin.Request.Auth
 {
     public class UserGroupRequest : AppDomainCatalogueRequest
     {

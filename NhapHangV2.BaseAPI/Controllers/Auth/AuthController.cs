@@ -9,16 +9,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using NhapHangV2.Utilities;
-using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Models;
-using NhapHangV2.Models.DomainModels;
-using NhapHangV2.Request.Auth;
+using jeamin.Utilities;
+using jeamin.Entities.Configuration;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Models;
+using jeamin.Models.DomainModels;
+using jeamin.Request.Auth;
 using RestSharp;
 using System;
 using System.Collections.Generic;
@@ -30,10 +30,10 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using Users = NhapHangV2.Entities.Users;
+using Users = jeamin.Entities.Users;
 using Microsoft.Win32;
 
-namespace NhapHangV2.BaseAPI.Controllers.Auth
+namespace jeamin.BaseAPI.Controllers.Auth
 {
     [ApiController]
     public abstract class AuthController : ControllerBase
@@ -93,6 +93,45 @@ namespace NhapHangV2.BaseAPI.Controllers.Auth
             if (ModelState.IsValid)
             {
                 var userInfos = await this.userService.Verify(loginModel.UserName, loginModel.Password);
+                if (userInfos != null)
+                {
+                    var userModel = mapper.Map<UserModel>(userInfos);
+                    var token = await GenerateJwtTokenForLogin(userModel);
+
+                    // Lưu giá trị token
+                    await this.userService.UpdateUserToken(userModel.Id, token, true);
+
+                    appDomainResult = new AppDomainResult()
+                    {
+                        Success = true,
+                        Data = new
+                        {
+                            token = token
+                        },
+                        ResultCode = (int)HttpStatusCode.OK
+                    };
+
+                }
+
+            }
+            else
+                throw new AppException(ModelState.GetErrorMessage());
+            return appDomainResult;
+        }
+
+        /// <summary>
+        /// Đăng nhập hệ thống
+        /// </summary>
+        /// <param name="loginModel"></param>
+        /// <returns></returns>
+        [AllowAnonymous]
+        [HttpPost("login-app")]
+        public virtual async Task<AppDomainResult> LoginForAppAsync([FromForm] Login loginModel)
+        {
+            AppDomainResult appDomainResult = new AppDomainResult();
+            if (ModelState.IsValid)
+            {
+                var userInfos = await this.userService.VerifyForApp(loginModel.UserName, loginModel.Password);
                 if (userInfos != null)
                 {
                     var userModel = mapper.Map<UserModel>(userInfos);
@@ -501,37 +540,26 @@ namespace NhapHangV2.BaseAPI.Controllers.Auth
 
         /// <summary>
         /// Quên mật khẩu
-        /// <para>Gửi mật khẩu mới qua Email nếu username là email</para>
-        /// <para>Gửi mật khẩu mới qua SMS nếu username là phone</para>
         /// </summary>
-        /// <param name="userName"></param>
+        /// <param name="itemModel"></param>
         /// <returns></returns>
         [AllowAnonymous]
-        [HttpPut("forgot-password/{userName}")]
-        public virtual async Task<AppDomainResult> ForgotPassword(string userName)
+        [HttpPut("forgot-password")]
+        public virtual async Task<AppDomainResult> ForgotPassword(Register itemModel)
         {
-            string[] a = new string[1];
-            a[0] = userName;
             AppDomainResult appDomainResult = new AppDomainResult();
-            bool isValidEmail = ValidateUserName.IsEmail(userName);
-            bool isValidPhone = ValidateUserName.IsPhoneNumber(userName);
+            bool isValidEmail = ValidateUserName.IsEmail(itemModel.Email);
             // Kiểm tra đúng định dạng email và số điện thoại chưa
             //if (!isValidEmail && !isValidPhone)
             //    throw new AppException("Vui lòng nhập email hoặc số điện thoại!");
             // Tạo mật khẩu mới
             // Kiểm tra email/phone đã tồn tại chưa?
-            var userInfos = await this.userService.GetAsync(e => !e.Deleted
-            && (
-            (isValidEmail == true && e.Email == userName)
-            || (isValidPhone && e.Phone == userName)
-            || e.UserName == userName
-            )
-            );
+            var userInfos = await this.userService.GetAsync(e => !e.Deleted && isValidEmail == true && e.Email == itemModel.Email);
             Users userInfo = null;
             if (userInfos != null && userInfos.Any())
                 userInfo = userInfos.FirstOrDefault();
             if (userInfo == null)
-                throw new AppException("Số điện thoại hoặc email không tồn tại");
+                throw new AppException("Email không tồn tại");
             // Cấp mật khẩu mới
             bool success = false;
             var newPasswordRandom = RandomUtilities.RandomString(8);
@@ -548,7 +576,8 @@ namespace NhapHangV2.BaseAPI.Controllers.Auth
                 };
                 success = await this.userService.UpdateFieldAsync(userInfo, includeProperties);
                 var config = await emailConfigurationService.GetEmailConfig();
-                await emailConfigurationService.Send($"[{config.FromDisplayName}] Thay đổi mật khẩu", body, a);
+                string[] email = { itemModel.Email };
+                await emailConfigurationService.Send($"[{config.FromDisplayName}] Thay đổi mật khẩu", body, email);
             }
             else success = true;
             return new AppDomainResult()

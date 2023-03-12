@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Repository;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Repository;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.UnitOfWork
+namespace jeamin.Interface.UnitOfWork
 {
     public interface IUnitOfWork
     {

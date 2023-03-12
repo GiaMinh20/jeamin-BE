@@ -1,7 +1,7 @@
-﻿using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
+﻿using jeamin.Entities.Configuration;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -14,9 +14,9 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Service.Services.DomainServices;
 
-namespace NhapHangV2.Service.Services.Configurations
+namespace jeamin.Service.Services.Configurations
 {
     public class EsmsResult
     {
@@ -50,7 +50,7 @@ namespace NhapHangV2.Service.Services.Configurations
                     // declare ascii encoding
                     UTF8Encoding encoding = new UTF8Encoding();
                     string strResult = string.Empty;
-                    string NhapHangV2Xml = @"<RQST>"
+                    string jeaminXml = @"<RQST>"
                                        + "<APIKEY>" + smsConfiguartionInfo.APIKey + "</APIKEY>"
                                        + "<SECRETKEY>" + smsConfiguartionInfo.SecretKey + "</SECRETKEY>"
                                        + "<ISFLASH>0</ISFLASH>"
@@ -60,7 +60,7 @@ namespace NhapHangV2.Service.Services.Configurations
                                        + "<CONTACTS><CUSTOMER><PHONE>" + Phone + "</PHONE></CUSTOMER></CONTACTS>"
 
                    + "</RQST>";
-                    string postData = NhapHangV2Xml.Trim().ToString();
+                    string postData = jeaminXml.Trim().ToString();
                     // convert xmlstring to byte using ascii encoding
                     byte[] data = encoding.GetBytes(postData);
                     // declare httpwebrequet wrt url defined above

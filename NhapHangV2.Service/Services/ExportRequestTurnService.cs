@@ -3,14 +3,14 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Request;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Entities;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Request;
+using jeamin.Service.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -18,9 +18,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class ExportRequestTurnService : DomainService<ExportRequestTurn, ExportRequestTurnSearch>, IExportRequestTurnService
     {

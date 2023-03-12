@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Entities.Auth;
+﻿using jeamin.Entities.Auth;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace NhapHangV2.Entities
+namespace jeamin.Entities
 {
     public class Users : DomainEntities.AppDomain
     {

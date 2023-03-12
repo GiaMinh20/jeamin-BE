@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Entities.Auth;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Interface.Services.DomainServices;
+﻿using jeamin.Entities.Auth;
+using jeamin.Entities.Search;
+using jeamin.Interface.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.Auth
+namespace jeamin.Interface.Services.Auth
 {
     public interface IUserInGroupService : IDomainService<UserInGroups, UserInGroupSearch>
     {

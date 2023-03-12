@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using NhapHangV2.Extensions;
-using NhapHangV2.Utilities;
+using jeamin.Extensions;
+using jeamin.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -14,7 +14,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.BaseAPI.Controllers
+namespace jeamin.BaseAPI.Controllers
 {
     [ApiController]
     public abstract class BaseFileController : ControllerBase

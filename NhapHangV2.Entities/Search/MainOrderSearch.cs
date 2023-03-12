@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Entities.DomainEntities;
+﻿using jeamin.Entities.DomainEntities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.Search
+namespace jeamin.Entities.Search
 {
     public class MainOrderSearch : BaseSearch
     {

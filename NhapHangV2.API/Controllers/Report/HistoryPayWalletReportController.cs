@@ -5,18 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities.Report;
-using NhapHangV2.Entities.Search.Report;
-using NhapHangV2.Interface.Services.Report;
-using NhapHangV2.Models.Report;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities.Report;
+using jeamin.Entities.Search.Report;
+using jeamin.Interface.Services.Report;
+using jeamin.Models.Report;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers.Report
+namespace jeamin.API.Controllers.Report
 {
     [Route("api/report-history-pay-wallet")]
     [ApiController]

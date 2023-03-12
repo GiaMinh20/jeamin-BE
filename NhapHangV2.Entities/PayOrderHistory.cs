@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities
+namespace jeamin.Entities
 {
     public class PayOrderHistory : DomainEntities.AppDomain
     {

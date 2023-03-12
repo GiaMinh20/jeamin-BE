@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace NhapHangV2.Utilities
+namespace jeamin.Utilities
 {
     public class ExcelUtilities
     {

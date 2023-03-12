@@ -1,5 +1,5 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Utilities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.DomainServices
+namespace jeamin.Interface.Services.DomainServices
 {
     public interface IDomainService<E, T> where E : Entities.DomainEntities.AppDomain where T : BaseSearch
     {

@@ -1,2225 +1,2225 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>NhapHangV2.Request</name>
+        <name>jeamin.Request</name>
     </assembly>
     <members>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.UID">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.BankId">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.BankId">
             <summary>
             ID ngân hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.Amount">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.Amount">
             <summary>
             Số tiền
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.Status">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.TradeContent">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.TradeContent">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AdminSendUserWalletRequest.IMG">
+        <member name="P:jeamin.Request.AdminSendUserWalletRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AnotherOrderRequest.UID">
+        <member name="P:jeamin.Request.AnotherOrderRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AnotherOrderRequest.WarehouseTQ">
+        <member name="P:jeamin.Request.AnotherOrderRequest.WarehouseTQ">
             <summary>
             Kho TQ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AnotherOrderRequest.WarehouseVN">
+        <member name="P:jeamin.Request.AnotherOrderRequest.WarehouseVN">
             <summary>
             Kho VN
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AnotherOrderRequest.ShippingType">
+        <member name="P:jeamin.Request.AnotherOrderRequest.ShippingType">
             <summary>
             Phương thức vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.AnotherOrderRequest.Products">
+        <member name="P:jeamin.Request.AnotherOrderRequest.Products">
             <summary>
             Danh sách sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.ImageProduct">
+        <member name="P:jeamin.Request.Product.ImageProduct">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.LinkProduct">
+        <member name="P:jeamin.Request.Product.LinkProduct">
             <summary>
             Link sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.NameProduct">
+        <member name="P:jeamin.Request.Product.NameProduct">
             <summary>
             Tên sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.PriceProduct">
+        <member name="P:jeamin.Request.Product.PriceProduct">
             <summary>
             Giá sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.PropertyProduct">
+        <member name="P:jeamin.Request.Product.PropertyProduct">
             <summary>
             Màu sắc, kích thước
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.QuantityProduct">
+        <member name="P:jeamin.Request.Product.QuantityProduct">
             <summary>
             Số lượng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Product.NoteProduct">
+        <member name="P:jeamin.Request.Product.NoteProduct">
             <summary>
             Ghi chú
             </summary>
         </member>
-        <member name="T:NhapHangV2.Request.Auth.ChangePassword">
+        <member name="T:jeamin.Request.Auth.ChangePassword">
             <summary>
             Model đổi mật khẩu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.ChangePassword.OldPassword">
+        <member name="P:jeamin.Request.Auth.ChangePassword.OldPassword">
             <summary>
             Mật khẩu cũ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.ChangePassword.NewPassword">
+        <member name="P:jeamin.Request.Auth.ChangePassword.NewPassword">
             <summary>
             Mật khẩu mới
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.ChangePassword.ConfirmNewPassword">
+        <member name="P:jeamin.Request.Auth.ChangePassword.ConfirmNewPassword">
             <summary>
             Xác nhận mật khẩu mới
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.ChangePasswordOTP.NewPassword">
+        <member name="P:jeamin.Request.Auth.ChangePasswordOTP.NewPassword">
             <summary>
             Mật khẩu mới
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.ChangePasswordOTP.ConfirmNewPassword">
+        <member name="P:jeamin.Request.Auth.ChangePasswordOTP.ConfirmNewPassword">
             <summary>
             Xác nhận mật khẩu mới
             </summary>
         </member>
-        <member name="T:NhapHangV2.Request.Auth.PermissionRequest">
+        <member name="T:jeamin.Request.Auth.PermissionRequest">
             <summary>
             Quyền người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectPermissionRequest.PermitObjectId">
+        <member name="P:jeamin.Request.Auth.PermitObjectPermissionRequest.PermitObjectId">
             <summary>
             Mã chức năng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectPermissionRequest.Permissions">
+        <member name="P:jeamin.Request.Auth.PermitObjectPermissionRequest.Permissions">
             <summary>
             List quyền
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectPermissionRequest.UserGroupId">
+        <member name="P:jeamin.Request.Auth.PermitObjectPermissionRequest.UserGroupId">
             <summary>
             Mã nhóm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectRequest.UserGroupId">
+        <member name="P:jeamin.Request.Auth.PermitObjectRequest.UserGroupId">
             <summary>
             Id nhóm người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectRequest.ControllerNames">
+        <member name="P:jeamin.Request.Auth.PermitObjectRequest.ControllerNames">
             <summary>
             Tên controller
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.PermitObjectRequest.Controllers">
+        <member name="P:jeamin.Request.Auth.PermitObjectRequest.Controllers">
             <summary>
             Danh sách tên controller
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Register.UserName">
+        <member name="P:jeamin.Request.Auth.Register.UserName">
             <summary>
             Email hoặc Số điện thoại
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Register.Email">
+        <member name="P:jeamin.Request.Auth.Register.Email">
             <summary>
             Email
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Register.Phone">
+        <member name="P:jeamin.Request.Auth.Register.Phone">
             <summary>
             Số điện thoại
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Register.FullName">
+        <member name="P:jeamin.Request.Auth.Register.FullName">
             <summary>
             Họ và tên
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Role.RoleName">
+        <member name="P:jeamin.Request.Auth.Role.RoleName">
             <summary>
             Tên chức năng (menu)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.Role.Permissions">
+        <member name="P:jeamin.Request.Auth.Role.Permissions">
             <summary>
             Quyền của chức năng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserGroupRequest.UserIds">
+        <member name="P:jeamin.Request.Auth.UserGroupRequest.UserIds">
             <summary>
             List id user của nhóm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserGroupRequest.UserInGroups">
+        <member name="P:jeamin.Request.Auth.UserGroupRequest.UserInGroups">
             <summary>
             Người dùng thuộc nhóm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserGroupRequest.PermitObjectPermissions">
+        <member name="P:jeamin.Request.Auth.UserGroupRequest.PermitObjectPermissions">
             <summary>
             Chức năng + quyền của nhóm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserInGroupRequest.UserId">
+        <member name="P:jeamin.Request.Auth.UserInGroupRequest.UserId">
             <summary>
             Người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserInGroupRequest.UserGroupId">
+        <member name="P:jeamin.Request.Auth.UserInGroupRequest.UserGroupId">
             <summary>
             Nhóm người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserInGroupRequest.Users">
+        <member name="P:jeamin.Request.Auth.UserInGroupRequest.Users">
             <summary>
             Lấy thông tin Người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Auth.UserInGroupRequest.UserGroups">
+        <member name="P:jeamin.Request.Auth.UserInGroupRequest.UserGroups">
             <summary>
             Lấy thông tin Nhóm người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BankRequest.BankName">
+        <member name="P:jeamin.Request.Catalogue.BankRequest.BankName">
             <summary>
             Tên ngân hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BankRequest.BankNumber">
+        <member name="P:jeamin.Request.Catalogue.BankRequest.BankNumber">
             <summary>
             Số tài khoản
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BankRequest.Branch">
+        <member name="P:jeamin.Request.Catalogue.BankRequest.Branch">
             <summary>
             Chi nhánh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BankRequest.IMG">
+        <member name="P:jeamin.Request.Catalogue.BankRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BigPackageRequest.Weight">
+        <member name="P:jeamin.Request.Catalogue.BigPackageRequest.Weight">
             <summary>
             Cân nặng (kg)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BigPackageRequest.Volume">
+        <member name="P:jeamin.Request.Catalogue.BigPackageRequest.Volume">
             <summary>
             Khối (m3)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.BigPackageRequest.Status">
+        <member name="P:jeamin.Request.Catalogue.BigPackageRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.CustomerBenefitsRequest.IMG">
+        <member name="P:jeamin.Request.Catalogue.CustomerBenefitsRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.CustomerBenefitsRequest.Link">
+        <member name="P:jeamin.Request.Catalogue.CustomerBenefitsRequest.Link">
             <summary>
             Link
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.CustomerBenefitsRequest.Position">
+        <member name="P:jeamin.Request.Catalogue.CustomerBenefitsRequest.Position">
             <summary>
             Vị trí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.CustomerBenefitsRequest.ItemType">
+        <member name="P:jeamin.Request.Catalogue.CustomerBenefitsRequest.ItemType">
             <summary>
             1. Cam kết, 2. Quyền lợi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.MenuRequest.Link">
+        <member name="P:jeamin.Request.Catalogue.MenuRequest.Link">
             <summary>
             Link menu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.MenuRequest.Type">
+        <member name="P:jeamin.Request.Catalogue.MenuRequest.Type">
             <summary>
             1. Ngoài, 2. Trong
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.MenuRequest.Parent">
+        <member name="P:jeamin.Request.Catalogue.MenuRequest.Parent">
             <summary>
             Id menu Cha
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.MenuRequest.Position">
+        <member name="P:jeamin.Request.Catalogue.MenuRequest.Position">
             <summary>
             Vị trí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.NotificationSettingRequest.IsNotifyAdmin">
+        <member name="P:jeamin.Request.Catalogue.NotificationSettingRequest.IsNotifyAdmin">
             <summary>
             Thông báo cho admin
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.NotificationSettingRequest.IsNotifyUser">
+        <member name="P:jeamin.Request.Catalogue.NotificationSettingRequest.IsNotifyUser">
             <summary>
             Thông báo cho người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.NotificationSettingRequest.IsEmailAdmin">
+        <member name="P:jeamin.Request.Catalogue.NotificationSettingRequest.IsEmailAdmin">
             <summary>
             Gửi email cho admin
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.NotificationSettingRequest.IsEmailUser">
+        <member name="P:jeamin.Request.Catalogue.NotificationSettingRequest.IsEmailUser">
             <summary>
             Gửi email cho người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGUrl">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGUrl">
             <summary>
             OG Url
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGTitle">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGTitle">
             <summary>
             OG Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGDescription">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGDescription">
             <summary>
             OG Description 
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGImage">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGImage">
             <summary>
             OG Image
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.MetaTitle">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.MetaTitle">
             <summary>
             Meta Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.MetaDescription">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.MetaDescription">
             <summary>
             Meta Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.MetaKeyword">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.MetaKeyword">
             <summary>
             Meta Keyword
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGFacebookTitle">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGFacebookTitle">
             <summary>
             OG Facebook Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGFacebookDescription">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGFacebookDescription">
             <summary>
             OG Facebook Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGFacebookIMG">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGFacebookIMG">
             <summary>
             OG Facebook IMG
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGTwitterTitle">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGTwitterTitle">
             <summary>
             OG Twitter Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGTwitterDescription">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGTwitterDescription">
             <summary>
             OG Twitter Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.OGTwitterIMG">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.OGTwitterIMG">
             <summary>
             OG Twitter IMG
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.PageTypeRequest.SideBar">
+        <member name="P:jeamin.Request.Catalogue.PageTypeRequest.SideBar">
             <summary>
             SideBar
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.ServiceRequest.Link">
+        <member name="P:jeamin.Request.Catalogue.ServiceRequest.Link">
             <summary>
             Link
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.ServiceRequest.IMG">
+        <member name="P:jeamin.Request.Catalogue.ServiceRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.ServiceRequest.Position">
+        <member name="P:jeamin.Request.Catalogue.ServiceRequest.Position">
             <summary>
             Vị trí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.StepRequest.IMG">
+        <member name="P:jeamin.Request.Catalogue.StepRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.StepRequest.Position">
+        <member name="P:jeamin.Request.Catalogue.StepRequest.Position">
             <summary>
             Vị trí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Catalogue.StepRequest.Link">
+        <member name="P:jeamin.Request.Catalogue.StepRequest.Link">
             <summary>
             Link
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.UID">
+        <member name="P:jeamin.Request.ComplainRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.MainOrderId">
+        <member name="P:jeamin.Request.ComplainRequest.MainOrderId">
             <summary>
             Mã shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.Amount">
+        <member name="P:jeamin.Request.ComplainRequest.Amount">
             <summary>
             Tiền bồi thường
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.IMG">
+        <member name="P:jeamin.Request.ComplainRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.ComplainText">
+        <member name="P:jeamin.Request.ComplainRequest.ComplainText">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ComplainRequest.Status">
+        <member name="P:jeamin.Request.ComplainRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.WebsiteName">
+        <member name="P:jeamin.Request.ConfigurationsRequest.WebsiteName">
             <summary>
             Tên website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.LogoIMG">
+        <member name="P:jeamin.Request.ConfigurationsRequest.LogoIMG">
             <summary>
             Hình Logo
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.CompanyShortName">
+        <member name="P:jeamin.Request.ConfigurationsRequest.CompanyShortName">
             <summary>
             Tên công ty viết tắt
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.CompanyLongName">
+        <member name="P:jeamin.Request.ConfigurationsRequest.CompanyLongName">
             <summary>
             Tên công ty dài
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.CompanyName">
+        <member name="P:jeamin.Request.ConfigurationsRequest.CompanyName">
             <summary>
             Tên công ty ngắn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.TaxCode">
+        <member name="P:jeamin.Request.ConfigurationsRequest.TaxCode">
             <summary>
             Mã số thuế
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.BannerIMG">
+        <member name="P:jeamin.Request.ConfigurationsRequest.BannerIMG">
             <summary>
             Banner
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.BannerText">
+        <member name="P:jeamin.Request.ConfigurationsRequest.BannerText">
             <summary>
             Chữ trên banner
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.ChromeExtensionLink">
+        <member name="P:jeamin.Request.ConfigurationsRequest.ChromeExtensionLink">
             <summary>
             Link Extension (Chrome)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.CocCocExtensionLink">
+        <member name="P:jeamin.Request.ConfigurationsRequest.CocCocExtensionLink">
             <summary>
             Link Extension (CocCoc)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.AboutText">
+        <member name="P:jeamin.Request.ConfigurationsRequest.AboutText">
             <summary>
             Về chúng tôi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.EmailSupport">
+        <member name="P:jeamin.Request.ConfigurationsRequest.EmailSupport">
             <summary>
             Email hỗ trợ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.EmailContact">
+        <member name="P:jeamin.Request.ConfigurationsRequest.EmailContact">
             <summary>
             Email liên lạc
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Hotline">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Hotline">
             <summary>
             Hotline
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.HotlineSupport">
+        <member name="P:jeamin.Request.ConfigurationsRequest.HotlineSupport">
             <summary>
             Hotline hỗ trợ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.HotlineFeedback">
+        <member name="P:jeamin.Request.ConfigurationsRequest.HotlineFeedback">
             <summary>
             Hotline phản hồi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Address">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Address">
             <summary>
             Địa chỉ 1
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Address2">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Address2">
             <summary>
             Địa chỉ 2 
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Address3">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Address3">
             <summary>
             Địa chỉ 3
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.TimeWork">
+        <member name="P:jeamin.Request.ConfigurationsRequest.TimeWork">
             <summary>
             Thời gian làm việc
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Facebook">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Facebook">
             <summary>
             Link facebook
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Twitter">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Twitter">
             <summary>
             Link twitter
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.GooglePlus">
+        <member name="P:jeamin.Request.ConfigurationsRequest.GooglePlus">
             <summary>
             Link google
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Instagram">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Instagram">
             <summary>
             Link Instagram
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Skype">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Skype">
             <summary>
             Link Skype
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Pinterest">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Pinterest">
             <summary>
             Link Pinterest
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.LinkedIn">
+        <member name="P:jeamin.Request.ConfigurationsRequest.LinkedIn">
             <summary>
             Link LinkedIn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.YoutubeLink">
+        <member name="P:jeamin.Request.ConfigurationsRequest.YoutubeLink">
             <summary>
             Link Youtube
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.ZaloLink">
+        <member name="P:jeamin.Request.ConfigurationsRequest.ZaloLink">
             <summary>
             Link Zalo
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.WechatLink">
+        <member name="P:jeamin.Request.ConfigurationsRequest.WechatLink">
             <summary>
             Link WeChat
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.Currency">
+        <member name="P:jeamin.Request.ConfigurationsRequest.Currency">
             <summary>
             Tỷ giá mua hàng hộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.PricePayHelpDefault">
+        <member name="P:jeamin.Request.ConfigurationsRequest.PricePayHelpDefault">
             <summary>
             Tỉ giá thanh toán hộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.AgentCurrency">
+        <member name="P:jeamin.Request.ConfigurationsRequest.AgentCurrency">
             <summary>
             Tỉ giá ký gửi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.SalePercent">
+        <member name="P:jeamin.Request.ConfigurationsRequest.SalePercent">
             <summary>
             Phần trăm nhân viên sale trong 3 tháng đầu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.SalePercentAfter3Month">
+        <member name="P:jeamin.Request.ConfigurationsRequest.SalePercentAfter3Month">
             <summary>
             Phần trăm nhân viên sale sau 3 tháng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.DatHangPercent">
+        <member name="P:jeamin.Request.ConfigurationsRequest.DatHangPercent">
             <summary>
             Phần trăm nhân viên đặt hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.InsurancePercent">
+        <member name="P:jeamin.Request.ConfigurationsRequest.InsurancePercent">
             <summary>
             Phần trăm bảo hiểm đơn hàng mua hộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.InsurancePercentTransport">
+        <member name="P:jeamin.Request.ConfigurationsRequest.InsurancePercentTransport">
             <summary>
             Phần trăm bảo hiểm đơn hàng ký gửi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.NumberLinkOfOrder">
+        <member name="P:jeamin.Request.ConfigurationsRequest.NumberLinkOfOrder">
             <summary>
             Số lượng link trong 1 đơn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.NotiPopup">
+        <member name="P:jeamin.Request.ConfigurationsRequest.NotiPopup">
             <summary>
             Nội dung thông báo Popup
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.NotiPopupTitle">
+        <member name="P:jeamin.Request.ConfigurationsRequest.NotiPopupTitle">
             <summary>
             Tiêu đề thông báo Popup
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.NotiPopupEmail">
+        <member name="P:jeamin.Request.ConfigurationsRequest.NotiPopupEmail">
             <summary>
             Email liên hệ Popup
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.MetaTitle">
+        <member name="P:jeamin.Request.ConfigurationsRequest.MetaTitle">
             <summary>
             Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.MetaKeyword">
+        <member name="P:jeamin.Request.ConfigurationsRequest.MetaKeyword">
             <summary>
             Meta keyword
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.MetaDescription">
+        <member name="P:jeamin.Request.ConfigurationsRequest.MetaDescription">
             <summary>
             Meta description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGUrl">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGUrl">
             <summary>
             OG Url
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGTitle">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGTitle">
             <summary>
             OG Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGDescription">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGDescription">
             <summary>
             OG Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGImage">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGImage">
             <summary>
             OG Image
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGFBTitle">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGFBTitle">
             <summary>
             OG FB Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGFBDescription">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGFBDescription">
             <summary>
             OG FB Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGFBImage">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGFBImage">
             <summary>
             OG FB Image
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGTwitterTitle">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGTwitterTitle">
             <summary>
             OG Twitter Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGTwitterDescription">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGTwitterDescription">
             <summary>
             OG Twitter Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.OGTwitterImage">
+        <member name="P:jeamin.Request.ConfigurationsRequest.OGTwitterImage">
             <summary>
             OG Twitter Image
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.GoogleAnalytics">
+        <member name="P:jeamin.Request.ConfigurationsRequest.GoogleAnalytics">
             <summary>
             Google Analytics (Đặt nội dung trong thẻ script)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.WebmasterTools">
+        <member name="P:jeamin.Request.ConfigurationsRequest.WebmasterTools">
             <summary>
             Webmaster Tools (Đặt nội dung trong thẻ script)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.HeaderScriptCode">
+        <member name="P:jeamin.Request.ConfigurationsRequest.HeaderScriptCode">
             <summary>
             Header Script Code (Đặt nội dung trong thẻ script)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfigurationsRequest.FooterScriptCode">
+        <member name="P:jeamin.Request.ConfigurationsRequest.FooterScriptCode">
             <summary>
             Footer Script Code (Đặt nội dung trong thẻ script)
             </summary>
         </member>
-        <member name="T:NhapHangV2.Request.Configuration.EmailConfigurationRequest">
+        <member name="T:jeamin.Request.Configuration.EmailConfigurationRequest">
             <summary>
             Cấu hình email
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.SmtpServer">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.SmtpServer">
             <summary>
             SMTP Server
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.Port">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.Port">
             <summary>
             Port 
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.EnableSsl">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.EnableSsl">
             <summary>
             Cờ mở SSL
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.ConnectType">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.ConnectType">
             <summary>
             Loại connect
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.DisplayName">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.DisplayName">
             <summary>
             Tên hiển thị
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.EmailConfigurationRequest.UserName">
+        <member name="P:jeamin.Request.Configuration.EmailConfigurationRequest.UserName">
             <summary>
             Tên đăng nhập cấu hình
             </summary>
         </member>
-        <member name="T:NhapHangV2.Request.Configuration.OTPHistoryRequest">
+        <member name="T:jeamin.Request.Configuration.OTPHistoryRequest">
             <summary>
             Lịch sử OTP
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.UserId">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.UserId">
             <summary>
             Thông tin người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.Phone">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.Phone">
             <summary>
             SDT gửi OTP
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.Email">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.Email">
             <summary>
             Email gửi OTP
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.OTPValue">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.OTPValue">
             <summary>
             Mã OTP
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.ExpiredDate">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.ExpiredDate">
             <summary>
             Thời gian hết hạn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.OTPHistoryRequest.Status">
+        <member name="P:jeamin.Request.Configuration.OTPHistoryRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.SMSConfiguartionRequest.TemplateText">
+        <member name="P:jeamin.Request.Configuration.SMSConfiguartionRequest.TemplateText">
             <summary>
             Cú pháp tin nhắn mẫu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.SMSConfiguartionRequest.WebServiceUrl">
+        <member name="P:jeamin.Request.Configuration.SMSConfiguartionRequest.WebServiceUrl">
             <summary>
             Url web service
             </summary>
         </member>
-        <member name="T:NhapHangV2.Request.Configuration.SMSEmailTemplateRequest">
+        <member name="T:jeamin.Request.Configuration.SMSEmailTemplateRequest">
             <summary>
             Bảng câu hình template gửi đi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.SMSEmailTemplateRequest.Subject">
+        <member name="P:jeamin.Request.Configuration.SMSEmailTemplateRequest.Subject">
             <summary>
             Tiêu đề
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.SMSEmailTemplateRequest.Body">
+        <member name="P:jeamin.Request.Configuration.SMSEmailTemplateRequest.Body">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.Configuration.SMSEmailTemplateRequest.IsSMS">
+        <member name="P:jeamin.Request.Configuration.SMSEmailTemplateRequest.IsSMS">
             <summary>
             Mẫu là SMS
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfirmSmallPackageRequest.Id">
+        <member name="P:jeamin.Request.ConfirmSmallPackageRequest.Id">
             <summary>
             SmallPackageId
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfirmSmallPackageRequest.Phone">
+        <member name="P:jeamin.Request.ConfirmSmallPackageRequest.Phone">
             <summary>
             Số điện thoại xác nhận
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfirmSmallPackageRequest.Note">
+        <member name="P:jeamin.Request.ConfirmSmallPackageRequest.Note">
             <summary>
             Ghi chú xác nhận
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ConfirmSmallPackageRequest.Images">
+        <member name="P:jeamin.Request.ConfirmSmallPackageRequest.Images">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainFileRequest.FileName">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainFileRequest.FileName">
             <summary>
             Tên file (Tên lưu trong thư mục)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainFileRequest.ContentType">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainFileRequest.ContentType">
             <summary>
             Loại file
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainFileRequest.FileExtension">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainFileRequest.FileExtension">
             <summary>
             Đuôi file
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainFileRequest.Description">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainFileRequest.Description">
             <summary>
             Mô tả
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainFileRequest.FileUrl">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainFileRequest.FileUrl">
             <summary>
             Link download File
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainRequest.Deleted">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainRequest.Deleted">
             <summary>
             Cờ check xóa
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.DomainRequests.AppDomainRequest.Active">
+        <member name="P:jeamin.Request.DomainRequests.AppDomainRequest.Active">
             <summary>
             Cờ active
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.TotalPriceVND">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.TotalPriceVND">
             <summary>
             Tổng tiền (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.TotalPriceCNY">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.TotalPriceCNY">
             <summary>
             Tổng tiền (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.TotalWeight">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.TotalWeight">
             <summary>
             Tổng kg
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.Note">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.Note">
             <summary>
             Ghi chú của nhân viên
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.ShippingTypeInVNId">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.ShippingTypeInVNId">
             <summary>
             ID đơn vị vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.UID">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.StaffNote">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.StaffNote">
             <summary>
             Ghi chú của khách hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.Status">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.Status">
             <summary>
             Trạng thái thanh toán
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.StatusExport">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.StatusExport">
             <summary>
             Trạng thái xuất kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ExportRequestTurnRequest.OutStockDate">
+        <member name="P:jeamin.Request.ExportRequestTurnRequest.OutStockDate">
             <summary>
             Ngày xuất kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeBuyProRequest.PriceFrom">
+        <member name="P:jeamin.Request.FeeBuyProRequest.PriceFrom">
             <summary>
             Giá từ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeBuyProRequest.PriceTo">
+        <member name="P:jeamin.Request.FeeBuyProRequest.PriceTo">
             <summary>
             Giá đến
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeBuyProRequest.FeePercent">
+        <member name="P:jeamin.Request.FeeBuyProRequest.FeePercent">
             <summary>
             Phần trăm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeCheckProductRequest.AmountFrom">
+        <member name="P:jeamin.Request.FeeCheckProductRequest.AmountFrom">
             <summary>
             Số lượng từ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeCheckProductRequest.AmountTo">
+        <member name="P:jeamin.Request.FeeCheckProductRequest.AmountTo">
             <summary>
             Số lượng đến
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeCheckProductRequest.Fee">
+        <member name="P:jeamin.Request.FeeCheckProductRequest.Fee">
             <summary>
             Phí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeCheckProductRequest.Type">
+        <member name="P:jeamin.Request.FeeCheckProductRequest.Type">
             <summary>
             Loại
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeePackagedRequest.InitialKg">
+        <member name="P:jeamin.Request.FeePackagedRequest.InitialKg">
             <summary>
             Số ký ban đầu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeePackagedRequest.FirstPrice">
+        <member name="P:jeamin.Request.FeePackagedRequest.FirstPrice">
             <summary>
             Số tiền ký ban đầu
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeePackagedRequest.NextPrice">
+        <member name="P:jeamin.Request.FeePackagedRequest.NextPrice">
             <summary>
             Số tiền cộng thêm trên mỗi ký
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeSupportRequest.SupportName">
+        <member name="P:jeamin.Request.FeeSupportRequest.SupportName">
             <summary>
             Tên phụ phí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.FeeSupportRequest.SupportInfoVND">
+        <member name="P:jeamin.Request.FeeSupportRequest.SupportInfoVND">
             <summary>
             Số tiền (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryOrderChangeRequest.HistoryContent">
+        <member name="P:jeamin.Request.HistoryOrderChangeRequest.HistoryContent">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryOrderChangeRequest.Type">
+        <member name="P:jeamin.Request.HistoryOrderChangeRequest.Type">
             <summary>
             Loại
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.UID">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.Amount">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.Amount">
             <summary>
             Số tiền
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.MoneyLeft">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.MoneyLeft">
             <summary>
             Số dư
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.Type">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.Type">
             <summary>
             1: trừ, 2: cộng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.TradeType">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.TradeType">
             <summary>
             Loại giao dịch
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletCNYRequest.Note">
+        <member name="P:jeamin.Request.HistoryPayWalletCNYRequest.Note">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.UID">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.MainOrderId">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.MainOrderId">
             <summary>
             Id Shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.Amount">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.Amount">
             <summary>
             Số tiền
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.Content">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.Content">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.MoneyLeft">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.MoneyLeft">
             <summary>
             Số dư
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.Type">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.Type">
             <summary>
             1 là trừ, 2 là cộng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.HistoryPayWalletRequest.TradeType">
+        <member name="P:jeamin.Request.HistoryPayWalletRequest.TradeType">
             <summary>
             Loại giao dịch
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderCodeRequest.Code">
+        <member name="P:jeamin.Request.MainOrderCodeRequest.Code">
             <summary>
             Mã đơn hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.Status">
+        <member name="P:jeamin.Request.MainOrderRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.ReceivePlace">
+        <member name="P:jeamin.Request.MainOrderRequest.ReceivePlace">
             <summary>
             Nhận hàng tại (ID kho VN) 
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FromPlace">
+        <member name="P:jeamin.Request.MainOrderRequest.FromPlace">
             <summary>
             ID Kho TQ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.ShippingType">
+        <member name="P:jeamin.Request.MainOrderRequest.ShippingType">
             <summary>
             Phương thức vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.MainOrderCodes">
+        <member name="P:jeamin.Request.MainOrderRequest.MainOrderCodes">
             <summary>
             Danh sách mã đơn hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.SmallPackages">
+        <member name="P:jeamin.Request.MainOrderRequest.SmallPackages">
             <summary>
             Danh sách mã vận đơn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsDoneSmallPackage">
+        <member name="P:jeamin.Request.MainOrderRequest.IsDoneSmallPackage">
             <summary>
             Đủ mã vận đơn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeSupports">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeSupports">
             <summary>
             Danh sách phụ phí
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.TotalPriceReal">
+        <member name="P:jeamin.Request.MainOrderRequest.TotalPriceReal">
             <summary>
             Tổng số tiền mua thật (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.TotalPriceRealCNY">
+        <member name="P:jeamin.Request.MainOrderRequest.TotalPriceRealCNY">
             <summary>
             Tổng số tiền mua thật (Tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeShipCNCNY">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeShipCNCNY">
             <summary>
             Phí ship TQ (Tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeShipCN">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeShipCN">
             <summary>
             Phí ship TQ (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeShipCNRealCNY">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeShipCNRealCNY">
             <summary>
             Phí ship TQ thật (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeShipCNReal">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeShipCNReal">
             <summary>
             Phí ship TQ thật (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeBuyPro">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeBuyPro">
             <summary>
             Phí mua hàng (Phí mua hàng - Chiết khấu (VNĐ))
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeWeight">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeWeight">
             <summary>
             Phí vận chuyển TQ - VN - VNĐ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.CurrentCNYVN">
+        <member name="P:jeamin.Request.MainOrderRequest.CurrentCNYVN">
             <summary>
             Tỉ giá
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.LessDeposit">
+        <member name="P:jeamin.Request.MainOrderRequest.LessDeposit">
             <summary>
             Đặt cọc (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.FeeBuyProPT">
+        <member name="P:jeamin.Request.MainOrderRequest.FeeBuyProPT">
             <summary>
             Phí dịch vụ (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsCheckProduct">
+        <member name="P:jeamin.Request.MainOrderRequest.IsCheckProduct">
             <summary>
             Kiểm đếm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsCheckProductPrice">
+        <member name="P:jeamin.Request.MainOrderRequest.IsCheckProductPrice">
             <summary>
             Phí kiểm đếm (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsCheckProductPriceCNY">
+        <member name="P:jeamin.Request.MainOrderRequest.IsCheckProductPriceCNY">
             <summary>
             Phí kiểm đếm (Tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsPacked">
+        <member name="P:jeamin.Request.MainOrderRequest.IsPacked">
             <summary>
             Đóng gỗ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsPackedPrice">
+        <member name="P:jeamin.Request.MainOrderRequest.IsPackedPrice">
             <summary>
             Phí đóng gỗ (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsPackedPriceCNY">
+        <member name="P:jeamin.Request.MainOrderRequest.IsPackedPriceCNY">
             <summary>
             Phí đóng gỗ (Tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsInsurance">
+        <member name="P:jeamin.Request.MainOrderRequest.IsInsurance">
             <summary>
             Bảo hiểm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.InsuranceMoney">
+        <member name="P:jeamin.Request.MainOrderRequest.InsuranceMoney">
             <summary>
             Phí bảo hiểm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsFastDelivery">
+        <member name="P:jeamin.Request.MainOrderRequest.IsFastDelivery">
             <summary>
             Giao hàng tận nhà
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.IsFastDeliveryPrice">
+        <member name="P:jeamin.Request.MainOrderRequest.IsFastDeliveryPrice">
             <summary>
             Phí giao hàng tận nhà
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.AmountDeposit">
+        <member name="P:jeamin.Request.MainOrderRequest.AmountDeposit">
             <summary>
             Tổng tiền phải cọc (Số tiền phải cọc)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.Deposit">
+        <member name="P:jeamin.Request.MainOrderRequest.Deposit">
             <summary>
             Đã thanh toán (Đã trả)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.SalerId">
+        <member name="P:jeamin.Request.MainOrderRequest.SalerId">
             <summary>
             Id nhân viên kinh doanh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.MainOrderRequest.DatHangId">
+        <member name="P:jeamin.Request.MainOrderRequest.DatHangId">
             <summary>
             Id nhân viên đặt hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderCommentRequest.MainOrderId">
+        <member name="P:jeamin.Request.OrderCommentRequest.MainOrderId">
             <summary>
             Id đơn hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderCommentRequest.Comment">
+        <member name="P:jeamin.Request.OrderCommentRequest.Comment">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderCommentRequest.Type">
+        <member name="P:jeamin.Request.OrderCommentRequest.Type">
             <summary>
             1. Nhắn tin với khách
             2. Nhắn tin nội bộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderCommentRequest.FileLink">
+        <member name="P:jeamin.Request.OrderCommentRequest.FileLink">
             <summary>
             Lưu tập tin
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.TitleOrigin">
+        <member name="P:jeamin.Request.OrderRequest.TitleOrigin">
             <summary>
             Tên sản phẩm (gốc)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.Quantity">
+        <member name="P:jeamin.Request.OrderRequest.Quantity">
             <summary>
             Số lượng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.PriceOrigin">
+        <member name="P:jeamin.Request.OrderRequest.PriceOrigin">
             <summary>
             Giá sản phẩm 
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.RealPrice">
+        <member name="P:jeamin.Request.OrderRequest.RealPrice">
             <summary>
             Giá mua thực tế (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.Brand">
+        <member name="P:jeamin.Request.OrderRequest.Brand">
             <summary>
             Ghi chú sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderRequest.ProductStatus">
+        <member name="P:jeamin.Request.OrderRequest.ProductStatus">
             <summary>
             Trạng thái (1: Còn hàng, 2: Hết hàng)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderShopTempRequest.ShopId">
+        <member name="P:jeamin.Request.OrderShopTempRequest.ShopId">
             <summary>
             Id của shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderShopTempRequest.ShopName">
+        <member name="P:jeamin.Request.OrderShopTempRequest.ShopName">
             <summary>
             Tên shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderShopTempRequest.Site">
+        <member name="P:jeamin.Request.OrderShopTempRequest.Site">
             <summary>
             Website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderShopTempRequest.OrderTemps">
+        <member name="P:jeamin.Request.OrderShopTempRequest.OrderTemps">
             <summary>
             List sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.TitleOrigin">
+        <member name="P:jeamin.Request.OrderTempRequest.TitleOrigin">
             <summary>
             Tên sản phẩm (Gốc)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.TitleTranslated">
+        <member name="P:jeamin.Request.OrderTempRequest.TitleTranslated">
             <summary>
             Tên sản phẩm (Dịch)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.PriceOrigin">
+        <member name="P:jeamin.Request.OrderTempRequest.PriceOrigin">
             <summary>
             Giá gốc (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.PricePromotion">
+        <member name="P:jeamin.Request.OrderTempRequest.PricePromotion">
             <summary>
             Giá khuyến mãi (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.PropertyTranslated">
+        <member name="P:jeamin.Request.OrderTempRequest.PropertyTranslated">
             <summary>
             Thông số (Dịch)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Property">
+        <member name="P:jeamin.Request.OrderTempRequest.Property">
             <summary>
             Thông số (Gốc)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.ShopId">
+        <member name="P:jeamin.Request.OrderTempRequest.ShopId">
             <summary>
             Id của shop trên website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.ShopName">
+        <member name="P:jeamin.Request.OrderTempRequest.ShopName">
             <summary>
             Tên shop trên website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.SellerId">
+        <member name="P:jeamin.Request.OrderTempRequest.SellerId">
             <summary>
             Id người bán
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Wangwang">
+        <member name="P:jeamin.Request.OrderTempRequest.Wangwang">
             <summary>
             Cái gì của shop ấy
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Quantity">
+        <member name="P:jeamin.Request.OrderTempRequest.Quantity">
             <summary>
             Số lượng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Stock">
+        <member name="P:jeamin.Request.OrderTempRequest.Stock">
             <summary>
             Hàng trong kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.LocationSale">
+        <member name="P:jeamin.Request.OrderTempRequest.LocationSale">
             <summary>
             Địa chỉ của shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Site">
+        <member name="P:jeamin.Request.OrderTempRequest.Site">
             <summary>
             Website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.ItemId">
+        <member name="P:jeamin.Request.OrderTempRequest.ItemId">
             <summary>
             Id của sản phẩm trên website
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.LinkOrigin">
+        <member name="P:jeamin.Request.OrderTempRequest.LinkOrigin">
             <summary>
             Link của sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Weight">
+        <member name="P:jeamin.Request.OrderTempRequest.Weight">
             <summary>
             Cân nặng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Brand">
+        <member name="P:jeamin.Request.OrderTempRequest.Brand">
             <summary>
             Ghi chú sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.CategoryName">
+        <member name="P:jeamin.Request.OrderTempRequest.CategoryName">
             <summary>
             Extension (Danh mục)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.CategoryId">
+        <member name="P:jeamin.Request.OrderTempRequest.CategoryId">
             <summary>
             Extension (Id Danh mục)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Tool">
+        <member name="P:jeamin.Request.OrderTempRequest.Tool">
             <summary>
             Extension (Công cụ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Version">
+        <member name="P:jeamin.Request.OrderTempRequest.Version">
             <summary>
             Extension (Phiên bản)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Error">
+        <member name="P:jeamin.Request.OrderTempRequest.Error">
             <summary>
             Extension (Lỗi)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.IsTranslate">
+        <member name="P:jeamin.Request.OrderTempRequest.IsTranslate">
             <summary>
             Dịch
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.StepPrice">
+        <member name="P:jeamin.Request.OrderTempRequest.StepPrice">
             <summary>
             Bước nhảy
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OrderTempRequest.Comment">
+        <member name="P:jeamin.Request.OrderTempRequest.Comment">
             <summary>
             Có xài mà không biết là gì
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OutStockSessionPackageRequest.DateOutStock">
+        <member name="P:jeamin.Request.OutStockSessionPackageRequest.DateOutStock">
             <summary>
             Ngày xuất kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OutStockSessionRequest.UID">
+        <member name="P:jeamin.Request.OutStockSessionRequest.UID">
             <summary>
             UID người nhập
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OutStockSessionRequest.Status">
+        <member name="P:jeamin.Request.OutStockSessionRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.OutStockSessionRequest.Note">
+        <member name="P:jeamin.Request.OutStockSessionRequest.Note">
             <summary>
             Ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.PageTypeId">
+        <member name="P:jeamin.Request.PageRequest.PageTypeId">
             <summary>
             Id chuyên mục bài viết
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.Title">
+        <member name="P:jeamin.Request.PageRequest.Title">
             <summary>
             Tiêu đề
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.Code">
+        <member name="P:jeamin.Request.PageRequest.Code">
             <summary>
             Code
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.Summary">
+        <member name="P:jeamin.Request.PageRequest.Summary">
             <summary>
             Mô tả ngắn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.PageContent">
+        <member name="P:jeamin.Request.PageRequest.PageContent">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.IsHidden">
+        <member name="P:jeamin.Request.PageRequest.IsHidden">
             <summary>
             Cờ ẩn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.SideBar">
+        <member name="P:jeamin.Request.PageRequest.SideBar">
             <summary>
             Cờ Sidebar
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.IMG">
+        <member name="P:jeamin.Request.PageRequest.IMG">
             <summary>
             Ảnh đại diện
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGUrl">
+        <member name="P:jeamin.Request.PageRequest.OGUrl">
             <summary>
             OG Url
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGTitle">
+        <member name="P:jeamin.Request.PageRequest.OGTitle">
             <summary>
             OG Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGDescription">
+        <member name="P:jeamin.Request.PageRequest.OGDescription">
             <summary>
             OG Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGImage">
+        <member name="P:jeamin.Request.PageRequest.OGImage">
             <summary>
             OG Image
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.MetaTitle">
+        <member name="P:jeamin.Request.PageRequest.MetaTitle">
             <summary>
             Meta Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.MetaDescription">
+        <member name="P:jeamin.Request.PageRequest.MetaDescription">
             <summary>
             Meta Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.MetaKeyword">
+        <member name="P:jeamin.Request.PageRequest.MetaKeyword">
             <summary>
             Meta Keyword
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGFacebookTitle">
+        <member name="P:jeamin.Request.PageRequest.OGFacebookTitle">
             <summary>
             OG Facebook Tile
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGFacebookDescription">
+        <member name="P:jeamin.Request.PageRequest.OGFacebookDescription">
             <summary>
             OG Facebook Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGFacebookIMG">
+        <member name="P:jeamin.Request.PageRequest.OGFacebookIMG">
             <summary>
             OG Facebook IMG
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGTwitterTitle">
+        <member name="P:jeamin.Request.PageRequest.OGTwitterTitle">
             <summary>
             OG Twitter Title
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGTwitterDescription">
+        <member name="P:jeamin.Request.PageRequest.OGTwitterDescription">
             <summary>
             OG Twitter Description
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PageRequest.OGTwitterIMG">
+        <member name="P:jeamin.Request.PageRequest.OGTwitterIMG">
             <summary>
             OG Twitter IMG
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpDetailRequest.Desc1">
+        <member name="P:jeamin.Request.PayHelpDetailRequest.Desc1">
             <summary>
             Giá tiền
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpDetailRequest.Desc2">
+        <member name="P:jeamin.Request.PayHelpDetailRequest.Desc2">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpRequest.Note">
+        <member name="P:jeamin.Request.PayHelpRequest.Note">
             <summary>
             Ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpRequest.Status">
+        <member name="P:jeamin.Request.PayHelpRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpRequest.IsComplete">
+        <member name="P:jeamin.Request.PayHelpRequest.IsComplete">
             <summary>
             Chưa hoàn thiện
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PayHelpRequest.PayHelpDetails">
+        <member name="P:jeamin.Request.PayHelpRequest.PayHelpDetails">
             <summary>
             Hóa đơn thanh toán hộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PaymentRequest.FullName">
+        <member name="P:jeamin.Request.PaymentRequest.FullName">
             <summary>
             Họ tên
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PaymentRequest.Phone">
+        <member name="P:jeamin.Request.PaymentRequest.Phone">
             <summary>
             Số điện thoại
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PaymentRequest.Email">
+        <member name="P:jeamin.Request.PaymentRequest.Email">
             <summary>
             Email
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PaymentRequest.Address">
+        <member name="P:jeamin.Request.PaymentRequest.Address">
             <summary>
             Địa chỉ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PaymentRequest.ShopPayments">
+        <member name="P:jeamin.Request.PaymentRequest.ShopPayments">
             <summary>
             Danh sách shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShopPayment.ShopId">
+        <member name="P:jeamin.Request.ShopPayment.ShopId">
             <summary>
             Id shop
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShopPayment.WarehouseTQ">
+        <member name="P:jeamin.Request.ShopPayment.WarehouseTQ">
             <summary>
             Kho TQ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShopPayment.WarehouseVN">
+        <member name="P:jeamin.Request.ShopPayment.WarehouseVN">
             <summary>
             Chuyển về kho VN
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShopPayment.ShippingType">
+        <member name="P:jeamin.Request.ShopPayment.ShippingType">
             <summary>
             Phương thức vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.PriceFromCNY">
+        <member name="P:jeamin.Request.PriceChangeRequest.PriceFromCNY">
             <summary>
             Giá tệ từ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.PriceToCNY">
+        <member name="P:jeamin.Request.PriceChangeRequest.PriceToCNY">
             <summary>
             Giá tệ đến
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.PriceVND">
+        <member name="P:jeamin.Request.PriceChangeRequest.PriceVND">
             <summary>
             Tiền VNĐ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip0">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip0">
             <summary>
             VIP 0
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip1">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip1">
             <summary>
             VIP 1
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip2">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip2">
             <summary>
             VIP 2
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip3">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip3">
             <summary>
             VIP 3
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip4">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip4">
             <summary>
             VIP 4
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip5">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip5">
             <summary>
             VIP 5
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip6">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip6">
             <summary>
             VIP 6
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip7">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip7">
             <summary>
             VIP 7
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.PriceChangeRequest.Vip8">
+        <member name="P:jeamin.Request.PriceChangeRequest.Vip8">
             <summary>
             VIP 8
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.RefundRequest.UID">
+        <member name="P:jeamin.Request.RefundRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.RefundRequest.Amount">
+        <member name="P:jeamin.Request.RefundRequest.Amount">
             <summary>
             Số tiền (tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.RefundRequest.Note">
+        <member name="P:jeamin.Request.RefundRequest.Note">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.RefundRequest.Status">
+        <member name="P:jeamin.Request.RefundRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.OrderTransactionCode">
+        <member name="P:jeamin.Request.SmallPackageRequest.OrderTransactionCode">
             <summary>
             Mã vận đơn ((POST) Thêm mã kiện ở trang "Kiểm hàng TQ", (PUT) Cập nhật kiện trôi nổi)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.MainOrderId">
+        <member name="P:jeamin.Request.SmallPackageRequest.MainOrderId">
             <summary>
             Id Đơn hàng mua hộ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.MainOrderCodeId">
+        <member name="P:jeamin.Request.SmallPackageRequest.MainOrderCodeId">
             <summary>
             Id Mã đơn hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.BigPackageId">
+        <member name="P:jeamin.Request.SmallPackageRequest.BigPackageId">
             <summary>
             Id bao lớn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Weight">
+        <member name="P:jeamin.Request.SmallPackageRequest.Weight">
             <summary>
             Cân nặng - Cân thực (kg)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Length">
+        <member name="P:jeamin.Request.SmallPackageRequest.Length">
             <summary>
             Dài
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Height">
+        <member name="P:jeamin.Request.SmallPackageRequest.Height">
             <summary>
             Rộng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Width">
+        <member name="P:jeamin.Request.SmallPackageRequest.Width">
             <summary>
             Cao
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Status">
+        <member name="P:jeamin.Request.SmallPackageRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.ProductType">
+        <member name="P:jeamin.Request.SmallPackageRequest.ProductType">
             <summary>
             Loại sản phẩm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.Description">
+        <member name="P:jeamin.Request.SmallPackageRequest.Description">
             <summary>
             Ghi chú ((POST) Thêm mã kiện ở trang "Kiểm hàng TQ", (PUT) Xác nhận kiện trôi nổi)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AdditionFeeCNY">
+        <member name="P:jeamin.Request.SmallPackageRequest.AdditionFeeCNY">
             <summary>
             Phụ phí hàng đặc biệt
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AdditionFeeVND">
+        <member name="P:jeamin.Request.SmallPackageRequest.AdditionFeeVND">
             <summary>
             Phụ phí hàng đặc biệt (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.SensorFeeCNY">
+        <member name="P:jeamin.Request.SmallPackageRequest.SensorFeeCNY">
             <summary>
             Cước vật tư
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.SensorFeeVND">
+        <member name="P:jeamin.Request.SmallPackageRequest.SensorFeeVND">
             <summary>
             Cước vật tư (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.StaffNoteCheck">
+        <member name="P:jeamin.Request.SmallPackageRequest.StaffNoteCheck">
             <summary>
             Nhân viên kho kinh doanh (Ghi chú nội bộ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.UserNote">
+        <member name="P:jeamin.Request.SmallPackageRequest.UserNote">
             <summary>
             Khách hàng ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.IMG">
+        <member name="P:jeamin.Request.SmallPackageRequest.IMG">
             <summary>
             Hình ảnh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.FeeShip">
+        <member name="P:jeamin.Request.SmallPackageRequest.FeeShip">
             <summary>
             Phí ship (Tệ) - ((PUT) Cập nhật kiện trôi nổi)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.IsWarehouseTQ">
+        <member name="P:jeamin.Request.SmallPackageRequest.IsWarehouseTQ">
             <summary>
             (POST) Thêm mã kiện ở trang "Kiểm hàng TQ"
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.IsWarehouseVN">
+        <member name="P:jeamin.Request.SmallPackageRequest.IsWarehouseVN">
             <summary>
             (POST) Thêm mã kiện ở trang "Kiểm hàng VN"
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.IsAssign">
+        <member name="P:jeamin.Request.SmallPackageRequest.IsAssign">
             <summary>
             (POST) Cờ gán đơn cho khách
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.IsFloating">
+        <member name="P:jeamin.Request.SmallPackageRequest.IsFloating">
             <summary>
             (PUT) Cờ cập nhập - xác nhận kiện trôi nổi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.FloatingStatus">
+        <member name="P:jeamin.Request.SmallPackageRequest.FloatingStatus">
             <summary>
             (PUT) Cập nhật - xác nhận kiện trôi nổi - Trạng thái xác nhận
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AssignType">
+        <member name="P:jeamin.Request.SmallPackageRequest.AssignType">
             <summary>
             Loại gán đơn
             1. Gán đơn cho khách mua hộ
             2. Gán đơn cho khách ký gửi
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AssignMainOrderId">
+        <member name="P:jeamin.Request.SmallPackageRequest.AssignMainOrderId">
             <summary>
             (POST) Gán đơn cho khách mua hộ - Id đơn hàng gán
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AssignUID">
+        <member name="P:jeamin.Request.SmallPackageRequest.AssignUID">
             <summary>
             (POST) Gán đơn cho khách ký gửi - Id User
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.AssignNote">
+        <member name="P:jeamin.Request.SmallPackageRequest.AssignNote">
             <summary>
             (POST) Gán đơn cho khách ký gửi - Ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.WareHouseFromId">
+        <member name="P:jeamin.Request.SmallPackageRequest.WareHouseFromId">
             <summary>
             (POST) Gán đơn cho khách ký gửi - Kho TQ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.WareHouseId">
+        <member name="P:jeamin.Request.SmallPackageRequest.WareHouseId">
             <summary>
             (POST) Gán đơn cho khách ký gửi - Kho đích
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.SmallPackageRequest.ShippingTypeId">
+        <member name="P:jeamin.Request.SmallPackageRequest.ShippingTypeId">
             <summary>
             (POST) Gán đơn cho khách ký gửi - Phương thức vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.StaffIncomeRequest.MainOrderId">
+        <member name="P:jeamin.Request.StaffIncomeRequest.MainOrderId">
             <summary>
             Mã đơn hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.StaffIncomeRequest.PercentReceive">
+        <member name="P:jeamin.Request.StaffIncomeRequest.PercentReceive">
             <summary>
             Phần trăm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.StaffIncomeRequest.UID">
+        <member name="P:jeamin.Request.StaffIncomeRequest.UID">
             <summary>
             ID người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.StaffIncomeRequest.Status">
+        <member name="P:jeamin.Request.StaffIncomeRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.StaffIncomeRequest.TotalPriceReceive">
+        <member name="P:jeamin.Request.StaffIncomeRequest.TotalPriceReceive">
             <summary>
             Hoa hồng (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.WareHouseFromId">
+        <member name="P:jeamin.Request.TransportationOrderRequest.WareHouseFromId">
             <summary>
             Kho TQ (POST - PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.WareHouseId">
+        <member name="P:jeamin.Request.TransportationOrderRequest.WareHouseId">
             <summary>
             Kho đích (POST - PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.ShippingTypeId">
+        <member name="P:jeamin.Request.TransportationOrderRequest.ShippingTypeId">
             <summary>
             Phương thức vận chuyển (POST - PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.listShippingOrder">
+        <member name="P:jeamin.Request.TransportationOrderRequest.listShippingOrder">
             <summary>
             Danh sách kiện ký gửi (POST)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.AdditionFeeCNY">
+        <member name="P:jeamin.Request.TransportationOrderRequest.AdditionFeeCNY">
             <summary>
             Phụ phí hàng đặc biệt (tệ) - Lấy từ SmallPackage (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.AdditionFeeVND">
+        <member name="P:jeamin.Request.TransportationOrderRequest.AdditionFeeVND">
             <summary>
             Phụ phí hàng đặc biệt (VNĐ) - Lấy từ SmallPackage (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.SensorFeeCNY">
+        <member name="P:jeamin.Request.TransportationOrderRequest.SensorFeeCNY">
             <summary>
             Cước vật tư (tệ) - Lấy từ SmallPackage (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.SensorFeeVND">
+        <member name="P:jeamin.Request.TransportationOrderRequest.SensorFeeVND">
             <summary>
             Cước vật tư (VNĐ) - Lấy từ SmallPackage (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.Note">
+        <member name="P:jeamin.Request.TransportationOrderRequest.Note">
             <summary>
             Ghi chú (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.StaffNote">
+        <member name="P:jeamin.Request.TransportationOrderRequest.StaffNote">
             <summary>
             Ghi chú của nhân viên (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.TransportationOrderRequest.Status">
+        <member name="P:jeamin.Request.TransportationOrderRequest.Status">
             <summary>
             Trạng thái (PUT)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShippingOrder.BarCode">
+        <member name="P:jeamin.Request.ShippingOrder.BarCode">
             <summary>
             Mã kiện
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.ShippingOrder.Note">
+        <member name="P:jeamin.Request.ShippingOrder.Note">
             <summary>
             Ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateBrandAndQuantityOrderTempRequest.Id">
+        <member name="P:jeamin.Request.UpdateBrandAndQuantityOrderTempRequest.Id">
             <summary>
             Id
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateBrandAndQuantityOrderTempRequest.Brand">
+        <member name="P:jeamin.Request.UpdateBrandAndQuantityOrderTempRequest.Brand">
             <summary>
             Ghi chú
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateBrandAndQuantityOrderTempRequest.Quantity">
+        <member name="P:jeamin.Request.UpdateBrandAndQuantityOrderTempRequest.Quantity">
             <summary>
             Số lượng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateFieldOrderShopTempRequest.IsFastDelivery">
+        <member name="P:jeamin.Request.UpdateFieldOrderShopTempRequest.IsFastDelivery">
             <summary>
             Giao tận nhà
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateFieldOrderShopTempRequest.IsCheckProduct">
+        <member name="P:jeamin.Request.UpdateFieldOrderShopTempRequest.IsCheckProduct">
             <summary>
             Kiểm hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateFieldOrderShopTempRequest.IsPacked">
+        <member name="P:jeamin.Request.UpdateFieldOrderShopTempRequest.IsPacked">
             <summary>
             Đóng gỗ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UpdateFieldOrderShopTempRequest.IsInsurance">
+        <member name="P:jeamin.Request.UpdateFieldOrderShopTempRequest.IsInsurance">
             <summary>
             Bảo hiểm
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.Name">
+        <member name="P:jeamin.Request.UserLevelRequest.Name">
             <summary>
             Cấp người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.FeeBuyPro">
+        <member name="P:jeamin.Request.UserLevelRequest.FeeBuyPro">
             <summary>
             Chiết khấu phí mua hàng (%)	
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.FeeWeight">
+        <member name="P:jeamin.Request.UserLevelRequest.FeeWeight">
             <summary>
             Chiết khấu phí vận chuyển TQ - VN (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.LessDeposit">
+        <member name="P:jeamin.Request.UserLevelRequest.LessDeposit">
             <summary>
             Đặt cọc tối thiểu (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.Money">
+        <member name="P:jeamin.Request.UserLevelRequest.Money">
             <summary>
             Tiền từ (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserLevelRequest.MoneyTo">
+        <member name="P:jeamin.Request.UserLevelRequest.MoneyTo">
             <summary>
             Tiền đến (VNĐ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Address">
+        <member name="P:jeamin.Request.UserRequest.Address">
             <summary>
             Địa chỉ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Status">
+        <member name="P:jeamin.Request.UserRequest.Status">
             <summary>
             Trạng thái (1: Đã kích hoạt, 2: Chưa kích hoạt, 3: Đang bị khóa)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.IsAdmin">
+        <member name="P:jeamin.Request.UserRequest.IsAdmin">
             <summary>
             Phải là admin không
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.IsCheckOTP">
+        <member name="P:jeamin.Request.UserRequest.IsCheckOTP">
             <summary>
             Cờ kiểm tra OTP của user
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Password">
+        <member name="P:jeamin.Request.UserRequest.Password">
             <summary>
             Mật khẩu người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.FullName">
+        <member name="P:jeamin.Request.UserRequest.FullName">
             <summary>
             Họ tên người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Birthday">
+        <member name="P:jeamin.Request.UserRequest.Birthday">
             <summary>
             Ngày sinh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.SaleId">
+        <member name="P:jeamin.Request.UserRequest.SaleId">
             <summary>
             ID nhân viên kinh doanh
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.DatHangId">
+        <member name="P:jeamin.Request.UserRequest.DatHangId">
             <summary>
             ID nhân viên đặt hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Deposit">
+        <member name="P:jeamin.Request.UserRequest.Deposit">
             <summary>
             Phần trăm đặt cọc (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.FeeTQVNPerWeight">
+        <member name="P:jeamin.Request.UserRequest.FeeTQVNPerWeight">
             <summary>
             Phí cân nặng riêng (VNĐ/KG)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.FeeBuyPro">
+        <member name="P:jeamin.Request.UserRequest.FeeBuyPro">
             <summary>
             Phí mua hàng riêng (%)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Currency">
+        <member name="P:jeamin.Request.UserRequest.Currency">
             <summary>
             Tỉ giá riêng (Tệ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.LevelId">
+        <member name="P:jeamin.Request.UserRequest.LevelId">
             <summary>
             Cấp người dùng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.IsResetPassword">
+        <member name="P:jeamin.Request.UserRequest.IsResetPassword">
             <summary>
             Có reset mật khẩu không
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.ConfirmPassWord">
+        <member name="P:jeamin.Request.UserRequest.ConfirmPassWord">
             <summary>
             Mật khẩu cũ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.NewPassWord">
+        <member name="P:jeamin.Request.UserRequest.NewPassWord">
             <summary>
             Mật khẩu mới
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.ConfirmNewPassWord">
+        <member name="P:jeamin.Request.UserRequest.ConfirmNewPassWord">
             <summary>
             Mật khẩu mới
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.Gender">
+        <member name="P:jeamin.Request.UserRequest.Gender">
             <summary>
             Giới tính
             0 => Nữ
             1 => Nam
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.UserRequest.UserGroupId">
+        <member name="P:jeamin.Request.UserRequest.UserGroupId">
             <summary>
             Id nhóm người dùng được chọn
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.WarehouseFromId">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.WarehouseFromId">
             <summary>
             ID từ kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.WarehouseId">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.WarehouseId">
             <summary>
             ID đến kho
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.WeightFrom">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.WeightFrom">
             <summary>
             Cân nặng từ
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.WeightTo">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.WeightTo">
             <summary>
             Cân nặng đến
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.Price">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.Price">
             <summary>
             Giá
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.ShippingTypeToWareHouseId">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.ShippingTypeToWareHouseId">
             <summary>
             ID hình thức vận chuyển
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WarehouseFeeRequest.IsHelpMoving">
+        <member name="P:jeamin.Request.WarehouseFeeRequest.IsHelpMoving">
             <summary>
             Loại đơn hàng (True: Đơn ký gửi, False: Đơn mua hộ)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.UID">
+        <member name="P:jeamin.Request.WithdrawRequest.UID">
             <summary>
             UID
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.Amount">
+        <member name="P:jeamin.Request.WithdrawRequest.Amount">
             <summary>
             Số tiền nạp
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.Status">
+        <member name="P:jeamin.Request.WithdrawRequest.Status">
             <summary>
             Trạng thái
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.Note">
+        <member name="P:jeamin.Request.WithdrawRequest.Note">
             <summary>
             Nội dung
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.Type">
+        <member name="P:jeamin.Request.WithdrawRequest.Type">
             <summary>
             Loại (2: Rút tiền, 3: Nạp tiền)
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.BankAddress">
+        <member name="P:jeamin.Request.WithdrawRequest.BankAddress">
             <summary>
             Ngân hàng
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.BankNumber">
+        <member name="P:jeamin.Request.WithdrawRequest.BankNumber">
             <summary>
             Số tài khoản
             </summary>
         </member>
-        <member name="P:NhapHangV2.Request.WithdrawRequest.Beneficiary">
+        <member name="P:jeamin.Request.WithdrawRequest.Beneficiary">
             <summary>
             Người hưởng
             </summary>

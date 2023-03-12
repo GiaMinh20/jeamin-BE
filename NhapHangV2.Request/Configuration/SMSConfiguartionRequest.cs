@@ -1,10 +1,10 @@
-﻿using NhapHangV2.Request.DomainRequests;
+﻿using jeamin.Request.DomainRequests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Request.Configuration
+namespace jeamin.Request.Configuration
 {
     public class SMSConfiguartionRequest : AppDomainRequest
     {

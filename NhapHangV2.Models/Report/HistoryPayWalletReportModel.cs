@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Models.DomainModels;
+﻿using jeamin.Models.DomainModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Models.Report
+namespace jeamin.Models.Report
 {
     public class HistoryPayWalletReportModel : AppDomainReportModel
     {

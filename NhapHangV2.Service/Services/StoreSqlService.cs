@@ -1,10 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Utilities;
+using jeamin.Entities.Search;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Utilities;
 using Polly;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class StoreSqlService<T> : IStoreSqlService<T>
     {

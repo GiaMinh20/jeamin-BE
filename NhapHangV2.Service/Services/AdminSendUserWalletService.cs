@@ -3,21 +3,21 @@ using Microsoft.AspNetCore.SignalR;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.Auth;
-using NhapHangV2.Service.Services.Catalogue;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Configuration;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.Auth;
+using jeamin.Service.Services.Catalogue;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -25,9 +25,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class AdminSendUserWalletService : DomainService<AdminSendUserWallet, AdminSendUserWalletSearch>, IAdminSendUserWalletService
     {

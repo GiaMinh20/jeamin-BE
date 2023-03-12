@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.Search
+namespace jeamin.Entities.Search
 {
     public class UserGroupForPermitObjectSearch
     {

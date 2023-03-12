@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Service.Services.DomainServices;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Entities.Auth;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Interface.Services.Auth;
+using jeamin.Entities.Auth;
 
-namespace NhapHangV2.Service.Services.Auth
+namespace jeamin.Service.Services.Auth
 {
     public class PermissionService : CatalogueService<Permissions, CatalogueSearch>, IPermissionService
     {

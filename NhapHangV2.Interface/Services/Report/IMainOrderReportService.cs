@@ -1,14 +1,14 @@
-﻿using NhapHangV2.Entities.Report;
-using NhapHangV2.Entities.Search.Report;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities.Report;
+using jeamin.Entities.Search.Report;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.Report
+namespace jeamin.Interface.Services.Report
 {
     public interface IMainOrderReportService : IReportService<MainOrderReport, MainOrderReportSearch>
     {

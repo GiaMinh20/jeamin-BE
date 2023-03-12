@@ -1,25 +1,25 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Utilities;
 using OneSignal.RestAPIv3.Client;
 using OneSignal.RestAPIv3.Client.Resources;
 using OneSignal.RestAPIv3.Client.Resources.Notifications;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
-using NhapHangV2.Interface.UnitOfWork;
+using static jeamin.Utilities.CoreContants;
+using jeamin.Interface.UnitOfWork;
 using AutoMapper;
-using NhapHangV2.Interface.DbContext;
+using jeamin.Interface.DbContext;
 using System.Threading;
 
-namespace NhapHangV2.Service.Services.Configurations
+namespace jeamin.Service.Services.Configurations
 {
     public class SendNotificationService : ISendNotificationService
     {

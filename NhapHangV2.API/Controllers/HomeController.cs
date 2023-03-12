@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     public class HomeController : Controller
     {

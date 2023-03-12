@@ -3,21 +3,21 @@ using Microsoft.AspNetCore.SignalR;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Request;
-using NhapHangV2.Service.Services.Auth;
-using NhapHangV2.Service.Services.Catalogue;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Search;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Request;
+using jeamin.Service.Services.Auth;
+using jeamin.Service.Services.Catalogue;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using NPOI.POIFS.Crypt.Dsig;
 using System;
 using System.Collections.Generic;
@@ -26,9 +26,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class TransportationOrderService : DomainService<TransportationOrder, TransportationOrderSearch>, ITransportationOrderService
     {
@@ -568,7 +568,7 @@ namespace NhapHangV2.Service.Services
         /// <returns></returns>
         public async Task<TransportationOrder> PriceAdjustment(TransportationOrder item)
         {
-            var config = await unitOfWork.Repository<NhapHangV2.Entities.Configurations>().GetQueryable().FirstOrDefaultAsync();
+            var config = await unitOfWork.Repository<jeamin.Entities.Configurations>().GetQueryable().FirstOrDefaultAsync();
             var smallPackages = item.SmallPackages;
             var user = await unitOfWork.Repository<Users>().GetQueryable().Where(e => !e.Deleted && e.Id == item.UID).FirstOrDefaultAsync();
             var userLevel = await unitOfWork.Repository<UserLevel>().GetQueryable().Where(e => !e.Deleted && e.Id == user.LevelId).FirstOrDefaultAsync();

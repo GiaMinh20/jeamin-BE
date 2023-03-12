@@ -1,17 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Auth;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbContext;
+using jeamin.Entities;
+using jeamin.Entities.Auth;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Configuration;
+using jeamin.Extensions;
+using jeamin.Interface.DbContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.AppDbContext
+namespace jeamin.AppDbContext
 {
     public class AppDbContext : DbContext, IAppDbContext
     {

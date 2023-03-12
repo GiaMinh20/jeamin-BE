@@ -1,9 +1,9 @@
-﻿using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Models.DomainModels;
-using NhapHangV2.Utilities;
+﻿using jeamin.Entities.DomainEntities;
+using jeamin.Extensions;
+using jeamin.Interface;
+using jeamin.Interface.Services;
+using jeamin.Models.DomainModels;
+using jeamin.Utilities;
 using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,10 +17,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Net;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Request.DomainRequests;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Request.DomainRequests;
 
-namespace NhapHangV2.BaseAPI.Controllers
+namespace jeamin.BaseAPI.Controllers
 {
     //SmallPackage không có kế thừa --> có chỉnh sửa gì thì chỉnh ở SmallPackage nữa
     [ApiController]

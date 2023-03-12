@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class FeePackagedService : DomainService<FeePackaged, BaseSearch>, IFeePackagedService
     {

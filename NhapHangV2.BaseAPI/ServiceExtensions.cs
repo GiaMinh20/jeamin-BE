@@ -2,32 +2,32 @@
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Repository;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.Services.Configuration;
-using NhapHangV2.Interface.Services.Report;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service;
-using NhapHangV2.Service.Repository;
-using NhapHangV2.Service.Services;
-using NhapHangV2.Service.Services.Auth;
-using NhapHangV2.Service.Services.Catalogue;
-using NhapHangV2.Service.Services.Configurations;
-using NhapHangV2.Service.Services.Report;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Repository;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.Services.Configuration;
+using jeamin.Interface.Services.Report;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service;
+using jeamin.Service.Repository;
+using jeamin.Service.Services;
+using jeamin.Service.Services.Auth;
+using jeamin.Service.Services.Catalogue;
+using jeamin.Service.Services.Configurations;
+using jeamin.Service.Services.Report;
 using System;
 using System.Globalization;
 using System.IO;
 
-namespace NhapHangV2.BaseAPI
+namespace jeamin.BaseAPI
 {
     public static class ServiceExtensions
     {
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
-            services.AddScoped<IAppDbContext, NhapHangV2.AppDbContext.AppDbContext>();
+            services.AddScoped<IAppDbContext, jeamin.AppDbContext.AppDbContext>();
             services.AddScoped(typeof(IDomainRepository<>), typeof(DomainRepository<>));
             services.AddScoped(typeof(ICatalogueRepository<>), typeof(CatalogueRepository<>));
             services.AddScoped(typeof(IAppRepository<>), typeof(AppRepository<>));
@@ -165,7 +165,7 @@ namespace NhapHangV2.BaseAPI
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "NhapHangV2 API", Version = "v1" });
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "jeamin API", Version = "v1" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     In = ParameterLocation.Header,

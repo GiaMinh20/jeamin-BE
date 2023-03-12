@@ -1,12 +1,12 @@
-﻿using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services.DomainServices;
+﻿using jeamin.Entities.Configuration;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.Configuration
+namespace jeamin.Interface.Services.Configuration
 {
     public interface ISMSConfigurationService : IDomainService<SMSConfigurations, BaseSearch>
     {

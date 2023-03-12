@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Interface.DbContext;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class DashboardService : IDashboardService
     {

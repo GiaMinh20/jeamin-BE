@@ -5,9 +5,9 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using NhapHangV2.Request.Auth;
+using jeamin.Request.Auth;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     public sealed class LoginContext
     {
@@ -33,7 +33,7 @@ namespace NhapHangV2.Extensions
         {
             get
             {
-                var user = (UserLoginModel)NhapHangV2.Extensions.HttpContext.Current.Items["User"];
+                var user = (UserLoginModel)jeamin.Extensions.HttpContext.Current.Items["User"];
                 if (user != null)
                     return user;
                 return null;

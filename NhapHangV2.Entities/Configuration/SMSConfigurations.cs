@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Entities.Configuration
+namespace jeamin.Entities.Configuration
 {
     /// <summary>
     /// Cấu hình SMS

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NhapHangV2.Models.DomainModels
+namespace jeamin.Models.DomainModels
 {
     public class ControllerModel
     {

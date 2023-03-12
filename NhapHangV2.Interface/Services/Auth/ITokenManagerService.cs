@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.Auth
+namespace jeamin.Interface.Services.Auth
 {
     public interface ITokenManagerService
     {

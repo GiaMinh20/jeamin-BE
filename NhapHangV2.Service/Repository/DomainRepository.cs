@@ -6,14 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
-using NhapHangV2.Interface.Repository;
-using NhapHangV2.Interface.DbContext;
-using NhapHangV2.Utilities;
+using jeamin.Interface.Repository;
+using jeamin.Interface.DbContext;
+using jeamin.Utilities;
 using Microsoft.Data.SqlClient;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.DbFactory;
+using jeamin.Extensions;
+using jeamin.Interface.DbFactory;
 
-namespace NhapHangV2.Service.Repository
+namespace jeamin.Service.Repository
 {
     public class DomainRepository<T> : IDomainRepository<T> where T : Entities.DomainEntities.AppDomain
     {

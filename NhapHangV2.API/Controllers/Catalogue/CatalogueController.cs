@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models.Auth;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Catalogue;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.Services.Auth;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Models.Auth;
+using jeamin.Models.Catalogue;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,13 +21,13 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers.Auth
+namespace jeamin.API.Controllers.Auth
 {
     [Route("api/catalogue")]
     [ApiController]
     [Description("Quản lý danh mục")]
     [Authorize]
-    public class CatalogueController : NhapHangV2.BaseAPI.Controllers.Catalogue.CatalogueController
+    public class CatalogueController : jeamin.BaseAPI.Controllers.Catalogue.CatalogueController
     {
         protected readonly IBankService bankService;
         protected readonly IShippingTypeVNService shippingTypeVNService;

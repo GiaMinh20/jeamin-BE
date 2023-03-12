@@ -1,7 +1,7 @@
-﻿using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Request;
-using NhapHangV2.Utilities;
+﻿using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Request;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +13,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class SearchService : ISearchService
     {

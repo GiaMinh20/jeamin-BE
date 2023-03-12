@@ -8,12 +8,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers.Auth
+namespace jeamin.API.Controllers.Auth
 {
     [Route("api/authenticate")]
     [ApiController]
     [Description("Authenticate")]
-    public class AuthController : NhapHangV2.BaseAPI.Controllers.Auth.AuthController
+    public class AuthController : jeamin.BaseAPI.Controllers.Auth.AuthController
     {
         public AuthController(IServiceProvider serviceProvider, IConfiguration configuration, IMapper mapper, ILogger<AuthController> logger) : base(serviceProvider, configuration, mapper, logger)
         {

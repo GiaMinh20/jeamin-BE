@@ -1,19 +1,19 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Utilities;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Models.Catalogue;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Service.Services.Catalogue
+namespace jeamin.Service.Services.Catalogue
 {
     public class MenuService : CatalogueService<Menu, CatalogueSearch>, IMenuService
     {

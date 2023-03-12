@@ -1,4 +1,4 @@
-﻿using NhapHangV2.Interface.UnitOfWork;
+﻿using jeamin.Interface.UnitOfWork;
 using AutoMapper;
 using Microsoft.Data.SqlClient;
 using System;
@@ -6,15 +6,15 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Entities.Search;
-using NhapHangV2.Entities.Auth;
+using jeamin.Interface.Services.Auth;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Entities.Search;
+using jeamin.Entities.Auth;
 using System.Linq.Dynamic.Core;
-using NhapHangV2.Entities;
+using jeamin.Entities;
 using System.Collections;
 
-namespace NhapHangV2.Service.Services.Auth
+namespace jeamin.Service.Services.Auth
 {
     public class UserInGroupService : DomainService<UserInGroups, UserInGroupSearch>, IUserInGroupService
     {

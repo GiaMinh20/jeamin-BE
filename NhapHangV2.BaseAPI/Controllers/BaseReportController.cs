@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Models.DomainModels;
-using NhapHangV2.Utilities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Extensions;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Models.DomainModels;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,7 +17,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.BaseAPI.Controllers
+namespace jeamin.BaseAPI.Controllers
 {
     [ApiController]
     public abstract class BaseReportController<E, T, F> : ControllerBase where E : Entities.DomainEntities.AppDomainReport where T : AppDomainReportModel, new() where F : BaseSearch, new()

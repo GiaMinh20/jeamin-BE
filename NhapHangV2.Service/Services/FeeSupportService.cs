@@ -1,19 +1,19 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Extensions;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Service.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static NhapHangV2.Utilities.CoreContants;
+using static jeamin.Utilities.CoreContants;
 
-namespace NhapHangV2.Service.Services
+namespace jeamin.Service.Services
 {
     public class FeeSupportService : DomainService<FeeSupport, BaseSearch>, IFeeSupportService
     {

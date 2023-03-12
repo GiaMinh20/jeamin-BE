@@ -1,11 +1,11 @@
-﻿using NhapHangV2.Models.DomainModels;
-using NhapHangV2.Utilities;
+﻿using jeamin.Models.DomainModels;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Models.Configuration
+namespace jeamin.Models.Configuration
 {
     /// <summary>
     /// Cấu hình email

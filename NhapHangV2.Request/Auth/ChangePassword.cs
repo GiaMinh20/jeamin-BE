@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Request.Auth
+namespace jeamin.Request.Auth
 {
     /// <summary>
     /// Model đổi mật khẩu

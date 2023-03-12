@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace NhapHangV2.Request.DomainRequests
+namespace jeamin.Request.DomainRequests
 {
     public class AppDomainRequest
     {

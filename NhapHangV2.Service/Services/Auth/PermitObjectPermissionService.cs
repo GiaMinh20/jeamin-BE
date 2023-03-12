@@ -1,16 +1,16 @@
-﻿using NhapHangV2.Entities;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services;
-using NhapHangV2.Interface.UnitOfWork;
+﻿using jeamin.Entities;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services;
+using jeamin.Interface.UnitOfWork;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NhapHangV2.Service.Services.DomainServices;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Entities.Auth;
+using jeamin.Service.Services.DomainServices;
+using jeamin.Interface.Services.Auth;
+using jeamin.Entities.Auth;
 
-namespace NhapHangV2.Service.Services.Auth
+namespace jeamin.Service.Services.Auth
 {
     public class PermitObjectPermissionService : DomainService<PermitObjectPermissions, BaseSearch>, IPermitObjectPermissionService
     {

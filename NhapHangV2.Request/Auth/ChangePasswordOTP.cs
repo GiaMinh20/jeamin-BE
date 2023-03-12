@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NhapHangV2.Request.Auth
+namespace jeamin.Request.Auth
 {
     public class ChangePasswordOTP
     {

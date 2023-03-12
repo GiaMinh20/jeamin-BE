@@ -1,13 +1,13 @@
-﻿using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Interface.Services.DomainServices;
+﻿using jeamin.Entities.Catalogue;
+using jeamin.Entities.DomainEntities;
+using jeamin.Interface.Services.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.Services.Catalogue
+namespace jeamin.Interface.Services.Catalogue
 {
     public interface IWarehouseFromService : ICatalogueService<WarehouseFrom, CatalogueSearch>
     {

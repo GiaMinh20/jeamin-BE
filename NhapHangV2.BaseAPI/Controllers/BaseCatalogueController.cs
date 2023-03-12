@@ -1,5 +1,5 @@
-﻿using NhapHangV2.Extensions;
-using NhapHangV2.Utilities;
+﻿using jeamin.Extensions;
+using jeamin.Utilities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,12 +10,12 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Models.DomainModels;
-using NhapHangV2.Interface.Services.DomainServices;
-using NhapHangV2.Request.DomainRequests;
+using jeamin.Entities.DomainEntities;
+using jeamin.Models.DomainModels;
+using jeamin.Interface.Services.DomainServices;
+using jeamin.Request.DomainRequests;
 
-namespace NhapHangV2.BaseAPI.Controllers
+namespace jeamin.BaseAPI.Controllers
 {
     //Menu, CustomerBenefits, PageType, Service, Step không có kế thừa 
     [ApiController]

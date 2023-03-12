@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Interface.DbContext
+namespace jeamin.Interface.DbContext
 {
     public interface IAppDbContext : IDisposable
     {

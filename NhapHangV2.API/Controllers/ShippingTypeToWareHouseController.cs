@@ -3,21 +3,21 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NhapHangV2.BaseAPI.Controllers;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.DomainEntities;
-using NhapHangV2.Extensions;
-using NhapHangV2.Interface.Services.Catalogue;
-using NhapHangV2.Models.Catalogue;
-using NhapHangV2.Request.Catalogue;
-using NhapHangV2.Utilities;
+using jeamin.BaseAPI.Controllers;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.DomainEntities;
+using jeamin.Extensions;
+using jeamin.Interface.Services.Catalogue;
+using jeamin.Models.Catalogue;
+using jeamin.Request.Catalogue;
+using jeamin.Utilities;
 using System;
 using System.ComponentModel;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.API.Controllers
+namespace jeamin.API.Controllers
 {
     [Route("api/shippingtypetowarehouse")]
     [ApiController]

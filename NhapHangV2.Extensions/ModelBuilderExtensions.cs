@@ -1,16 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NhapHangV2.Entities;
-using NhapHangV2.Entities.Auth;
-using NhapHangV2.Entities.Catalogue;
-using NhapHangV2.Entities.Configuration;
-using NhapHangV2.Utilities;
+using jeamin.Entities;
+using jeamin.Entities.Auth;
+using jeamin.Entities.Catalogue;
+using jeamin.Entities.Configuration;
+using jeamin.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     public static class ModelBuilderExtensions
     {

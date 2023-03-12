@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>NhapHangV2.API</name>
+        <name>jeamin.API</name>
     </assembly>
     <members>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.GetInforBill(System.Int32)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.GetInforBill(System.Int32)">
             <summary>
             Xuất phiếu nạp tiền
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.UpdateStatus(System.Int32,System.Int32)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.UpdateStatus(System.Int32,System.Int32)">
             <summary>
             Cập nhật trạng thái của lịch sử nạp (User)
             </summary>
@@ -19,35 +19,35 @@
             <param name="status">2: Duyệt, 3: Hủy</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.AddItem(NhapHangV2.Request.AdminSendUserWalletRequest)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.AddItem(jeamin.Request.AdminSendUserWalletRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.UpdateItem(NhapHangV2.Request.AdminSendUserWalletRequest)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.UpdateItem(jeamin.Request.AdminSendUserWalletRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.ExportExcel(NhapHangV2.Entities.Search.AdminSendUserWalletSearch)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.ExportExcel(jeamin.Entities.Search.AdminSendUserWalletSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.AdminSendUserWalletController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.AdminSendUserWalletModel},NhapHangV2.Entities.Search.AdminSendUserWalletSearch)">
+        <member name="M:jeamin.API.Controllers.AdminSendUserWalletController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.AdminSendUserWalletModel},jeamin.Entities.Search.AdminSendUserWalletSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -55,75 +55,75 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.GetCatalogueController">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.GetCatalogueController">
             <summary>
             Lấy thông tin những chức năng cần được phân quyền
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.GetById(System.Int32)">
             <summary>
             Lấy thông tin chức năng theo Id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.AddItem(NhapHangV2.Request.Auth.PermitObjectRequest)">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.AddItem(jeamin.Request.Auth.PermitObjectRequest)">
             <summary>
             Thêm mới chức năng
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.UpdateItem(NhapHangV2.Request.Auth.PermitObjectRequest)">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.UpdateItem(jeamin.Request.Auth.PermitObjectRequest)">
             <summary>
             Cập nhật thông tin chức năng
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.UserGroupForPermitObject(NhapHangV2.Entities.Search.UserGroupForPermitObjectSearch)">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.UserGroupForPermitObject(jeamin.Entities.Search.UserGroupForPermitObjectSearch)">
             <summary>
             
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.PermitObjectController.UserGroupForPermitObject(System.Collections.Generic.List{NhapHangV2.Request.Auth.UserGroupForPermitObjectRequest})">
+        <member name="M:jeamin.API.Controllers.Auth.PermitObjectController.UserGroupForPermitObject(System.Collections.Generic.List{jeamin.Request.Auth.UserGroupForPermitObjectRequest})">
             <summary>
             
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.UserGroupController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Auth.UserGroupController.GetById(System.Int32)">
             <summary>
             Lấy thông tin nhóm theo Id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.UserGroupController.GetPermissionCatalogue">
+        <member name="M:jeamin.API.Controllers.Auth.UserGroupController.GetPermissionCatalogue">
             <summary>
             Lấy danh sách quyền
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.UserGroupController.GetUserInGroups(NhapHangV2.Entities.Search.UserInGroupSearch)">
+        <member name="M:jeamin.API.Controllers.Auth.UserGroupController.GetUserInGroups(jeamin.Entities.Search.UserInGroupSearch)">
             <summary>
             Lấy danh sách phân trang người dùng thuộc nhóm
             </summary>
             <param name="searchUserInGroup"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetBankCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetBankCatalogue(System.String)">
             <summary>
             Lấy danh sách ngân hàng
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetBigPackageCatalogue(System.String,System.Int32)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetBigPackageCatalogue(System.String,System.Int32)">
             <summary>
             Lấy danh sách bao hàng
             </summary>
@@ -136,49 +136,49 @@
             </param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetShippingTypeVNCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetShippingTypeVNCatalogue(System.String)">
             <summary>
             Lấy danh sách vận chuyển trong nước
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetShippingTypeToWarehouseCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetShippingTypeToWarehouseCatalogue(System.String)">
             <summary>
             Lấy danh sách hình thức vận chuyển
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetWarehouseFromCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetWarehouseFromCatalogue(System.String)">
             <summary>
             Lấy danh sách kho TQ
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetWarehouseCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetWarehouseCatalogue(System.String)">
             <summary>
             Lấy danh sách kho VN
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetUserGroupCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetUserGroupCatalogue(System.String)">
             <summary>
             Lấy danh sách quyền
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetUserLevelCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetUserLevelCatalogue(System.String)">
             <summary>
             Lấy danh sách phí người dùng
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetUserCatalogue(System.String,System.Int32)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetUserCatalogue(System.String,System.Int32)">
             <summary>
             Lấy danh sách User
             </summary>
@@ -186,57 +186,57 @@
             <param name="userGroupId">1: Admin, 2: User, 3: Quản lý, 4: Đặt hàng, 5: Kho TQ, 6: Kho VN, 7: Saler (kinh doanh), 8: Kế toán, 9: Thủ kho</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Auth.CatalogueController.GetPageTypeCatalogue(System.String)">
+        <member name="M:jeamin.API.Controllers.Auth.CatalogueController.GetPageTypeCatalogue(System.String)">
             <summary>
             Lấy danh sách chuyên mục bài viết
             </summary>
             <param name="searchContent"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BankController.AddItem(NhapHangV2.Request.Catalogue.BankRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BankController.AddItem(jeamin.Request.Catalogue.BankRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BankController.UpdateItem(NhapHangV2.Request.Catalogue.BankRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BankController.UpdateItem(jeamin.Request.Catalogue.BankRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BigPackageController.AddItem(NhapHangV2.Request.Catalogue.BigPackageRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BigPackageController.AddItem(jeamin.Request.Catalogue.BigPackageRequest)">
             <summary>
             Thêm bao lớn
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
-            <exception cref="T:NhapHangV2.Extensions.AppException"></exception>
+            <exception cref="T:jeamin.Extensions.AppException"></exception>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BigPackageController.UpdateItem(NhapHangV2.Request.Catalogue.BigPackageRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BigPackageController.UpdateItem(jeamin.Request.Catalogue.BigPackageRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BigPackageController.ExportExcel(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BigPackageController.ExportExcel(System.Int32)">
             <summary>
             Xuất Excel
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BigPackageController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BigPackageController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.BigPackageController.GetParameterReport(NhapHangV2.Models.Catalogue.BigPackageModel,System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.BigPackageController.GetParameterReport(jeamin.Models.Catalogue.BigPackageModel,System.Int32)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -244,238 +244,238 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerBenefitsController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerBenefitsController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerBenefitsController.AddItem(NhapHangV2.Request.Catalogue.CustomerBenefitsRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerBenefitsController.AddItem(jeamin.Request.Catalogue.CustomerBenefitsRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerBenefitsController.UpdateItem(NhapHangV2.Request.Catalogue.CustomerBenefitsRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerBenefitsController.UpdateItem(jeamin.Request.Catalogue.CustomerBenefitsRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerBenefitsController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerBenefitsController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerBenefitsController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerBenefitsController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerTalkController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerTalkController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerTalkController.AddItem(NhapHangV2.Request.Catalogue.CustomerTalkRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerTalkController.AddItem(jeamin.Request.Catalogue.CustomerTalkRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerTalkController.UpdateItem(NhapHangV2.Request.Catalogue.CustomerTalkRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerTalkController.UpdateItem(jeamin.Request.Catalogue.CustomerTalkRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerTalkController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerTalkController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.CustomerTalkController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.CustomerTalkController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.GetById(System.Int32)">
             <summary>
             Lấy thông tin cấu hình theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.AddItem(NhapHangV2.Request.Catalogue.MenuRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.AddItem(jeamin.Request.Catalogue.MenuRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.UpdateItem(NhapHangV2.Request.Catalogue.MenuRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.UpdateItem(jeamin.Request.Catalogue.MenuRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.MenuController.GetConfigById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.MenuController.GetConfigById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.GetByCode(System.String)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.GetByCode(System.String)">
             <summary>
             Lấy thông tin theo code
             </summary>
             <param name="code"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.AddItem(NhapHangV2.Request.Catalogue.PageTypeRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.AddItem(jeamin.Request.Catalogue.PageTypeRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.UpdateItem(NhapHangV2.Request.Catalogue.PageTypeRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.UpdateItem(jeamin.Request.Catalogue.PageTypeRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.PageTypeController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.PageTypeController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.ServiceController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.ServiceController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.ServiceController.AddItem(NhapHangV2.Request.Catalogue.ServiceRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.ServiceController.AddItem(jeamin.Request.Catalogue.ServiceRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.ServiceController.UpdateItem(NhapHangV2.Request.Catalogue.ServiceRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.ServiceController.UpdateItem(jeamin.Request.Catalogue.ServiceRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.ServiceController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.ServiceController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.ServiceController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.ServiceController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.StepController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.StepController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.StepController.AddItem(NhapHangV2.Request.Catalogue.StepRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.StepController.AddItem(jeamin.Request.Catalogue.StepRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.StepController.UpdateItem(NhapHangV2.Request.Catalogue.StepRequest)">
+        <member name="M:jeamin.API.Controllers.Catalogue.StepController.UpdateItem(jeamin.Request.Catalogue.StepRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.StepController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.Catalogue.StepController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.Catalogue.StepController.Get(NhapHangV2.Entities.DomainEntities.CatalogueSearch)">
+        <member name="M:jeamin.API.Controllers.Catalogue.StepController.Get(jeamin.Entities.DomainEntities.CatalogueSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ComplainController.AddItem(NhapHangV2.Request.ComplainRequest)">
+        <member name="M:jeamin.API.Controllers.ComplainController.AddItem(jeamin.Request.ComplainRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ComplainController.UpdateComplain(NhapHangV2.Request.FieldForUpdatedComplainRequest)">
+        <member name="M:jeamin.API.Controllers.ComplainController.UpdateComplain(jeamin.Request.FieldForUpdatedComplainRequest)">
             <summary>
             Cập nhật các trạng thái như đang xử lý, hủy,...
             0: đã hủy, 1: chưa duyệt, 2: đang xử lý, 3 đã xử lý
@@ -483,21 +483,21 @@
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ComplainController.ExportExcel(NhapHangV2.Entities.Search.ComplainSearch)">
+        <member name="M:jeamin.API.Controllers.ComplainController.ExportExcel(jeamin.Entities.Search.ComplainSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ComplainController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.ComplainController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ComplainController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.ComplainModel},NhapHangV2.Entities.Search.ComplainSearch)">
+        <member name="M:jeamin.API.Controllers.ComplainController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.ComplainModel},jeamin.Entities.Search.ComplainSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -505,79 +505,79 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ConfigurationsController.GetCurrency">
+        <member name="M:jeamin.API.Controllers.ConfigurationsController.GetCurrency">
             <summary>
             Lấy tỷ giá thanh toán hộ theo cấu hình
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ConfigurationsController.GetCurrencyHeplBuy">
+        <member name="M:jeamin.API.Controllers.ConfigurationsController.GetCurrencyHeplBuy">
             <summary>
             Lấy tỷ giá mua hộ
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ConfigurationsController.AddItem(NhapHangV2.Request.ConfigurationsRequest)">
+        <member name="M:jeamin.API.Controllers.ConfigurationsController.AddItem(jeamin.Request.ConfigurationsRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ConfigurationsController.UpdateItem(NhapHangV2.Request.ConfigurationsRequest)">
+        <member name="M:jeamin.API.Controllers.ConfigurationsController.UpdateItem(jeamin.Request.ConfigurationsRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ContactUsController.AddItem(NhapHangV2.Request.ContactUsRequest)">
+        <member name="M:jeamin.API.Controllers.ContactUsController.AddItem(jeamin.Request.ContactUsRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ContactUsController.Updatetem(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.ContactUsController.Updatetem(System.Collections.Generic.List{System.Int32})">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModels"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ContactUsController.Get(NhapHangV2.Entities.Search.ContactUsSearch)">
+        <member name="M:jeamin.API.Controllers.ContactUsController.Get(jeamin.Entities.Search.ContactUsSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.DashboardController.GetTotalInWeek">
+        <member name="M:jeamin.API.Controllers.DashboardController.GetTotalInWeek">
             <summary>
             Số lượng đơn hàng + tổng tiền khách nạp trong tuần
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.DashboardController.GetItemInWeek">
+        <member name="M:jeamin.API.Controllers.DashboardController.GetItemInWeek">
             <summary>
             Đơn hàng + tiền khách nạp trong tuần (theo ngày)
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.DashboardController.GetPercentOrder">
+        <member name="M:jeamin.API.Controllers.DashboardController.GetPercentOrder">
             <summary>
             tỉ lệ đơn mua hộ theo tuần
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ExportRequestTurnController.UpdateStatus(NhapHangV2.Request.FieldForUpdatedExportRequestTurnRequest)">
+        <member name="M:jeamin.API.Controllers.ExportRequestTurnController.UpdateStatus(jeamin.Request.FieldForUpdatedExportRequestTurnRequest)">
             <summary>
             Cập nhật các trạng thái như Thanh toán bằng ví, thanh toán trực tiếp, hủy
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ExportRequestTurnController.UpdateNote(System.Int32,System.String)">
+        <member name="M:jeamin.API.Controllers.ExportRequestTurnController.UpdateNote(System.Int32,System.String)">
             <summary>
             Cập nhật ghi chú
             </summary>
@@ -585,28 +585,28 @@
             <param name="staffNote"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ExportRequestTurnController.Export(NhapHangV2.Request.FieldForExportRequestTurnRequest)">
+        <member name="M:jeamin.API.Controllers.ExportRequestTurnController.Export(jeamin.Request.FieldForExportRequestTurnRequest)">
             <summary>
             Xuất kho
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletCNYController.ExportExcel(NhapHangV2.Entities.Search.HistoryPayWalletCNYSearch)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletCNYController.ExportExcel(jeamin.Entities.Search.HistoryPayWalletCNYSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletCNYController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletCNYController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletCNYController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.HistoryPayWalletCNYModel},NhapHangV2.Entities.Search.HistoryPayWalletCNYSearch)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletCNYController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.HistoryPayWalletCNYModel},jeamin.Entities.Search.HistoryPayWalletCNYSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -614,21 +614,21 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletController.ExportExcel(NhapHangV2.Entities.Search.HistoryPayWalletSearch)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletController.ExportExcel(jeamin.Entities.Search.HistoryPayWalletSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.HistoryPayWalletController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.HistoryPayWalletModel},NhapHangV2.Entities.Search.HistoryPayWalletSearch)">
+        <member name="M:jeamin.API.Controllers.HistoryPayWalletController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.HistoryPayWalletModel},jeamin.Entities.Search.HistoryPayWalletSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -636,29 +636,29 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetMainOrderInfor(System.Int32)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetMainOrderInfor(System.Int32)">
             <summary>
             Thông tin đơn hàng trang đơn hàng của user
              </summary>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetMainOdersAmount(System.Int32)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetMainOdersAmount(System.Int32)">
             <summary>
             Thông tin tiền hàng trang đơn hàng của user
              </summary>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetTotalStatus">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetTotalStatus">
             <summary>
             (Chưa có filter) Đếm số các trạng thái của tài khoản (admin thì thấy được hết) - chưa phân quyền nên chưa làm cho admin
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetTotalAmount">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetTotalAmount">
             <summary>
             (Chưa có filter) Tính tổng tiền hàng của khách hàng đó (admin thì tính tổng tất cả các đơn) - chưa phân quyền nên chưa làm cho admin
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateMainOrder(System.Collections.Generic.List{System.Int32},System.Int32)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateMainOrder(System.Collections.Generic.List{System.Int32},System.Int32)">
             <summary>
             Cập nhật trạng thái đơn hàng (Đặt cọc, thanh toán,...) cho User
             </summary>
@@ -666,28 +666,28 @@
             <param name="status">1: Hủy, 2: Đặt cọc, 7: Thanh toán</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.CheckDeposit(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.MainOrderController.CheckDeposit(System.Collections.Generic.List{System.Int32})">
             <summary>
             Lấy tổng tiền đơn hàng đặt cọc
             </summary>
             <param name="listID"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.CheckPayment(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.MainOrderController.CheckPayment(System.Collections.Generic.List{System.Int32})">
             <summary>
             Lấy tổng tiền cần thanh toán
             </summary>
             <param name="listID"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.AddAnotherOrder(NhapHangV2.Request.AnotherOrderRequest)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.AddAnotherOrder(jeamin.Request.AnotherOrderRequest)">
             <summary>
             Tạo đơn hàng khác (UID = 0 nếu là trang Users)
             </summary>
             <param name="model"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateNote(System.Int32,System.String)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateNote(System.Int32,System.String)">
             <summary>
             Cập nhật ghi chú cho đơn hàng
             </summary>
@@ -695,7 +695,7 @@
             <param name="note"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateStaff(System.Int32,System.Int32,System.Int32)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateStaff(System.Int32,System.Int32,System.Int32)">
             <summary>
             Cập nhật nhân viên đặt hàng, nhân viên kinh doanh của đơn hàng
             </summary>
@@ -704,7 +704,7 @@
             <param name="type">1: Nhân viên đặt hàng, 2: Nhân viên kinh doanh</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.Payment(System.Int32,System.Int32,System.Int32,System.Decimal,System.String)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.Payment(System.Int32,System.Int32,System.Int32,System.Decimal,System.String)">
             <summary>
             Thanh toán hoặc đặt cọc của Quản lý
             </summary>
@@ -721,29 +721,29 @@
             <param name="note">Nội dung thanh toán</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateItem(NhapHangV2.Request.MainOrderRequest)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateItem(jeamin.Request.MainOrderRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateMainOrderWeight(NhapHangV2.Request.MainOrderRequest)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateMainOrderWeight(jeamin.Request.MainOrderRequest)">
             <summary>
             Cập nhật cân nặng trong chi tiết đơn
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateMainOrderDelivery(NhapHangV2.Request.MainOrderRequest)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateMainOrderDelivery(jeamin.Request.MainOrderRequest)">
             <summary>
             Cập nhật phí vận chuyển
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
-            <exception cref="T:NhapHangV2.Extensions.AppException"></exception>
+            <exception cref="T:jeamin.Extensions.AppException"></exception>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.Commission(NhapHangV2.Request.MainOrderRequest,NhapHangV2.Entities.MainOrder,NhapHangV2.Entities.Users,NhapHangV2.Entities.Configurations,System.String)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.Commission(jeamin.Request.MainOrderRequest,jeamin.Entities.MainOrder,jeamin.Entities.Users,jeamin.Entities.Configurations,System.String)">
             <summary>
             Tính phí hoa hồng (cho cập nhật đơn hàng và chọn nhân viên)
             </summary>
@@ -754,48 +754,48 @@
             <param name="updateSql"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.UpdateIsCheckNotiPrice(NhapHangV2.Request.MainOrderRequest)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.UpdateIsCheckNotiPrice(jeamin.Request.MainOrderRequest)">
             <summary>
             Cập nhật chờ báo giá
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.NumberOfOrder(NhapHangV2.Entities.Search.MainOrderSearch)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.NumberOfOrder(jeamin.Entities.Search.MainOrderSearch)">
             <summary>
             Tính số lượng đơn theo trạng thái
             </summary>
             <param name="mainOrderSearch"> 1:Đơn mua hộ, 3: Đơn mua hộ khác</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.PriceInMonth(NhapHangV2.Entities.Search.MainOrderSearch)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.PriceInMonth(jeamin.Entities.Search.MainOrderSearch)">
             <summary>
             Lấy tiền trong 1 tháng
             </summary>
             <param name="mainOrderSearch"> 1:Đơn mua hộ, 3: Đơn mua hộ khác</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetCountAllOrder(NhapHangV2.Entities.Search.MainOrderSearch)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetCountAllOrder(jeamin.Entities.Search.MainOrderSearch)">
             <summary>
             Tính số lượng các đơn hàng
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.ExportExcel(NhapHangV2.Entities.Search.MainOrderSearch)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.ExportExcel(jeamin.Entities.Search.MainOrderSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.MainOrderController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.MainOrderModel},NhapHangV2.Entities.Search.MainOrderSearch)">
+        <member name="M:jeamin.API.Controllers.MainOrderController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.MainOrderModel},jeamin.Entities.Search.MainOrderSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -803,7 +803,7 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.NotificationController.Get(NhapHangV2.Entities.Search.NoticationSearch)">
+        <member name="M:jeamin.API.Controllers.NotificationController.Get(jeamin.Entities.Search.NoticationSearch)">
             <summary>
             Lấy danh sách item phân trang
             Loại thông báo: 0-Yêu cầu nạp,1-Yêu cầu rút, 2-Đơn hàng, 3-Khiếu nại, 4-Tất cả
@@ -811,55 +811,55 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.NotificationController.GetTotalNotification(System.Boolean)">
+        <member name="M:jeamin.API.Controllers.NotificationController.GetTotalNotification(System.Boolean)">
             <summary>
             Lấy ra tổng số notification chưa đọc
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.NotificationController.ReadNotifications(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.NotificationController.ReadNotifications(System.Collections.Generic.List{System.Int32})">
             <summary>
             Đọc thông báo user
             </summary>
             <param name="notificationIds"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.NotificationController.HiddenNotifications(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.NotificationController.HiddenNotifications(System.Collections.Generic.List{System.Int32})">
             <summary>
             Ẩn thông báo user
             </summary>
             <param name="notificationIds"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderCommentController.AddItem(NhapHangV2.Request.OrderCommentRequest)">
+        <member name="M:jeamin.API.Controllers.OrderCommentController.AddItem(jeamin.Request.OrderCommentRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderController.UpdateItem(NhapHangV2.Request.OrderRequest)">
+        <member name="M:jeamin.API.Controllers.OrderController.UpdateItem(jeamin.Request.OrderRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderController.ExportExcel(NhapHangV2.Entities.Search.OrderSearch)">
+        <member name="M:jeamin.API.Controllers.OrderController.ExportExcel(jeamin.Entities.Search.OrderSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.OrderController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.OrderModel},NhapHangV2.Entities.Search.OrderSearch)">
+        <member name="M:jeamin.API.Controllers.OrderController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.OrderModel},jeamin.Entities.Search.OrderSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -867,7 +867,7 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.Get(NhapHangV2.Entities.Search.OrderShopTempSearch)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.Get(jeamin.Entities.Search.OrderShopTempSearch)">
             <summary>
             Lấy danh sách item phân trang
             Loại thông báo: 0-Yêu cầu nạp,1-Yêu cầu rút, 2-Đơn hàng, 3-Khiếu nại, 4-Tất cả
@@ -875,34 +875,34 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.UpdateItem(NhapHangV2.Request.OrderShopTempRequest)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.UpdateItem(jeamin.Request.OrderShopTempRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.GetTotalPriceVND(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.GetTotalPriceVND(System.Collections.Generic.List{System.Int32})">
             <summary>
             Tính tổng tiền khi chọn shop
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.DeleteItem(System.Int32)">
             <summary>
             Xóa shop + những sản phẩm của shop trong giỏ hàng
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.UpdateField(NhapHangV2.Request.UpdateFieldOrderShopTempRequest)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.UpdateField(jeamin.Request.UpdateFieldOrderShopTempRequest)">
             <summary>
             Cập nhật 4 trường của shop
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.UpdateNote(System.Int32,System.String)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.UpdateNote(System.Int32,System.String)">
             <summary>
             Cập nhật ghi chú của shop
             </summary>
@@ -910,77 +910,77 @@
             <param name="note"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.Payment(NhapHangV2.Request.PaymentRequest)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.Payment(jeamin.Request.PaymentRequest)">
             <summary>
             Thanh toán đơn hàng
             </summary>
             <param name="model"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.AddItem(NhapHangV2.Request.OrderShopTempRequest)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.AddItem(jeamin.Request.OrderShopTempRequest)">
             <summary>
             Đặt hàng qua Extension
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderShopTempController.AddSame(NhapHangV2.Request.DomainRequests.AppDomainRequest)">
+        <member name="M:jeamin.API.Controllers.OrderShopTempController.AddSame(jeamin.Request.DomainRequests.AppDomainRequest)">
             <summary>
             Đặt đơn tương tự
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderTempController.UpdateItem(NhapHangV2.Request.OrderTempRequest)">
+        <member name="M:jeamin.API.Controllers.OrderTempController.UpdateItem(jeamin.Request.OrderTempRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OrderTempController.UpdateBrandAndQuantity(NhapHangV2.Request.UpdateBrandAndQuantityOrderTempRequest)">
+        <member name="M:jeamin.API.Controllers.OrderTempController.UpdateBrandAndQuantity(jeamin.Request.UpdateBrandAndQuantityOrderTempRequest)">
             <summary>
             Update số lượng và ghi chú
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.UpdateStatus(NhapHangV2.Request.FieldForUpdatedOutStockSessionRequest)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.UpdateStatus(jeamin.Request.FieldForUpdatedOutStockSessionRequest)">
             <summary>
             Cập nhật các trạng thái như Thanh toán bằng ví, thanh toán bằng tiền mặt
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.DeleteNotPayment(System.Int32)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.DeleteNotPayment(System.Int32)">
             <summary>
             Ẩn đơn chưa thanh toán
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.Export(System.Int32)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.Export(System.Int32)">
             <summary>
             Xuất kho
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.ExportExcel(NhapHangV2.Entities.Search.OutStockSessionSearch)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.ExportExcel(jeamin.Entities.Search.OutStockSessionSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.OutStockSessionController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.OutStockSessionModel},NhapHangV2.Entities.Search.OutStockSessionSearch)">
+        <member name="M:jeamin.API.Controllers.OutStockSessionController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.OutStockSessionModel},jeamin.Entities.Search.OutStockSessionSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -988,97 +988,97 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.PageController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.GetByCode(System.String)">
+        <member name="M:jeamin.API.Controllers.PageController.GetByCode(System.String)">
             <summary>
             Lấy thông tin theo code
             </summary>
             <param name="code"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.AddItem(NhapHangV2.Request.PageRequest)">
+        <member name="M:jeamin.API.Controllers.PageController.AddItem(jeamin.Request.PageRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.UpdateItem(NhapHangV2.Request.PageRequest)">
+        <member name="M:jeamin.API.Controllers.PageController.UpdateItem(jeamin.Request.PageRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.PageController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PageController.Get(NhapHangV2.Entities.Search.PageSearch)">
+        <member name="M:jeamin.API.Controllers.PageController.Get(jeamin.Entities.Search.PageSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.UpdatePayHelp(NhapHangV2.Request.PayHelpRequest)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.UpdatePayHelp(jeamin.Request.PayHelpRequest)">
             <summary>
             Cập nhật các trạng thái như Xóa, Thanh toán của User
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.GetCurrency(System.Decimal)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.GetCurrency(System.Decimal)">
             <summary>
             Lấy tỷ giá thanh toán hộ theo cấu hình
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.UpdateItem(NhapHangV2.Request.PayHelpRequest)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.UpdateItem(jeamin.Request.PayHelpRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.UpdateConfirm(NhapHangV2.Request.PayHelpRequest)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.UpdateConfirm(jeamin.Request.PayHelpRequest)">
             <summary>
             Cập nhật thông tin duyệt đơn
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.UpdateStaff(NhapHangV2.Request.PayHelpRequest)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.UpdateStaff(jeamin.Request.PayHelpRequest)">
             <summary>
             Cập nhật nhân viên sale
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.ExportExcel(NhapHangV2.Entities.Search.PayHelpSearch)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.ExportExcel(jeamin.Entities.Search.PayHelpSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.PayHelpController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.PayHelpModel},NhapHangV2.Entities.Search.PayHelpSearch)">
+        <member name="M:jeamin.API.Controllers.PayHelpController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.PayHelpModel},jeamin.Entities.Search.PayHelpSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1086,7 +1086,7 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.RefundController.UpdateStatus(System.Int32,System.Int32)">
+        <member name="M:jeamin.API.Controllers.RefundController.UpdateStatus(System.Int32,System.Int32)">
             <summary>
             Cập nhật trạng thái của lịch sử yêu cầu rút tệ (User)
             2: Duyệt
@@ -1096,28 +1096,28 @@
             <param name="status"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.RefundController.UpdateItem(NhapHangV2.Request.RefundRequest)">
+        <member name="M:jeamin.API.Controllers.RefundController.UpdateItem(jeamin.Request.RefundRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.RefundController.ExportExcel(NhapHangV2.Entities.Search.RefundSearch)">
+        <member name="M:jeamin.API.Controllers.RefundController.ExportExcel(jeamin.Entities.Search.RefundSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.RefundController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.RefundController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.RefundController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.RefundModel},NhapHangV2.Entities.Search.RefundSearch)">
+        <member name="M:jeamin.API.Controllers.RefundController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.RefundModel},jeamin.Entities.Search.RefundSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1125,28 +1125,28 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ShippingTypeToWareHouseController.AddItem(NhapHangV2.Request.Catalogue.ShippingTypeToWareHouseRequest)">
+        <member name="M:jeamin.API.Controllers.ShippingTypeToWareHouseController.AddItem(jeamin.Request.Catalogue.ShippingTypeToWareHouseRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.ShippingTypeToWareHouseController.UpdateItem(NhapHangV2.Request.Catalogue.ShippingTypeToWareHouseRequest)">
+        <member name="M:jeamin.API.Controllers.ShippingTypeToWareHouseController.UpdateItem(jeamin.Request.Catalogue.ShippingTypeToWareHouseRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.Confirm(NhapHangV2.Request.ConfirmSmallPackageRequest)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.Confirm(jeamin.Request.ConfirmSmallPackageRequest)">
             <summary>
             Xác nhận lệnh trôi nổi (User)
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.Tracking(System.String,System.Boolean)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.Tracking(System.String,System.Boolean)">
             <summary>
             Tracking theo mã vận đơn cho User (Kiểm hàng cho Quản lý )
             </summary>
@@ -1154,7 +1154,7 @@
             <param name="isAssign">Gán kiện ký gửi cho khách</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.ExportForBarCode(System.Int32,System.String,System.Int32)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.ExportForBarCode(System.Int32,System.String,System.Int32)">
             <summary>
             Xuất kho dựa vào mã barcode (mã vận đơn)
             </summary>
@@ -1167,7 +1167,7 @@
             </param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.ExportForUserName(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.ExportForUserName(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             Xuất kho dựa vào UserName
             </summary>
@@ -1185,55 +1185,55 @@
             </param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.AddItem(NhapHangV2.Request.SmallPackageRequest)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.AddItem(jeamin.Request.SmallPackageRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.UpdateItem(System.Collections.Generic.List{NhapHangV2.Request.SmallPackageRequest})">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.UpdateItem(System.Collections.Generic.List{jeamin.Request.SmallPackageRequest})">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModels"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.UpdateIsLost(System.Int32)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.UpdateIsLost(System.Int32)">
             <summary>
             Chọn kiện thất lạc
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.DownloadTemplateImport">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.DownloadTemplateImport">
             <summary>
             Template Import Kho TQ
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.ImportTemplateFile(NhapHangV2.API.Controllers.ImportSmallPackageRequest)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.ImportTemplateFile(jeamin.API.Controllers.ImportSmallPackageRequest)">
             <summary>
             Import Kho TQ
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.ExportExcel(NhapHangV2.Entities.Search.SmallPackageSearch)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.ExportExcel(jeamin.Entities.Search.SmallPackageSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.SmallPackageModel},NhapHangV2.Entities.Search.SmallPackageSearch)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.SmallPackageModel},jeamin.Entities.Search.SmallPackageSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1241,34 +1241,34 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.DeleteItem(System.Int32)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.DeleteItem(System.Int32)">
             <summary>
             Xóa item
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.Get(NhapHangV2.Entities.Search.SmallPackageSearch)">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.Get(jeamin.Entities.Search.SmallPackageSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.SmallPackageController.GetPermission">
+        <member name="M:jeamin.API.Controllers.SmallPackageController.GetPermission">
             <summary>
             Lấy thông tin quyền của chức năng
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.StaffIncomeController.CommissionPayment(System.Int32,System.Int32)">
+        <member name="M:jeamin.API.Controllers.StaffIncomeController.CommissionPayment(System.Int32,System.Int32)">
             <summary>
             Thanh toán hoa hồng 
             </summary>        
@@ -1276,21 +1276,21 @@
             <param name="id">Thanh toán 1 Id</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.StaffIncomeController.ExportExcel(NhapHangV2.Entities.Search.StaffIncomeSearch)">
+        <member name="M:jeamin.API.Controllers.StaffIncomeController.ExportExcel(jeamin.Entities.Search.StaffIncomeSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.StaffIncomeController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.StaffIncomeController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.StaffIncomeController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.StaffIncomeModel},NhapHangV2.Entities.Search.StaffIncomeSearch)">
+        <member name="M:jeamin.API.Controllers.StaffIncomeController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.StaffIncomeModel},jeamin.Entities.Search.StaffIncomeSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1298,45 +1298,45 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TrackingController.Tracking(System.String)">
+        <member name="M:jeamin.API.Controllers.TrackingController.Tracking(System.String)">
             <summary>
             Tracking theo mã vận đơn
             </summary>
             <param name="transactionCode"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.GetTransportationsInfor(NhapHangV2.Entities.Search.TransportationOrderSearch)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.GetTransportationsInfor(jeamin.Entities.Search.TransportationOrderSearch)">
             <summary>
             Thông tin đơn hàng trang đơn hàng của user
              </summary>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.GetTransportationsAmount">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.GetTransportationsAmount">
             <summary>
             Thông tin tiền hàng trang đơn hàng của user
              </summary>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.Get(NhapHangV2.Entities.Search.TransportationOrderSearch)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.Get(jeamin.Entities.Search.TransportationOrderSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.AddItem(NhapHangV2.Request.TransportationOrderRequest)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.AddItem(jeamin.Request.TransportationOrderRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.UpdateItem(NhapHangV2.Request.TransportationOrderRequest)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.UpdateItem(jeamin.Request.TransportationOrderRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.CancelItem(System.Int32,System.String)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.CancelItem(System.Int32,System.String)">
             <summary>
             Hủy kiện yêu cầu ký gửi
             </summary>
@@ -1344,7 +1344,7 @@
             <param name="note">Ghi chú</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.GetBillingInfo(System.Collections.Generic.List{System.Int32},System.Boolean)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.GetBillingInfo(System.Collections.Generic.List{System.Int32},System.Boolean)">
             <summary>
             Lấy thông tin thanh toán xuất kho
             </summary>
@@ -1352,7 +1352,7 @@
             <param name="isAll">TRUE: Chọn tất cả, FALSE: Chọn từng cái</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.Payment(System.Collections.Generic.List{System.Int32},System.Int32,System.String,System.Int32)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.Payment(System.Collections.Generic.List{System.Int32},System.Int32,System.String,System.Int32)">
             <summary>
             Thanh toán tại kho, thanh toán bằng ví
             </summary>
@@ -1362,35 +1362,35 @@
             <param name="type">0: Thanh toán tại kho, 2: Thanh toán qua ví</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.PaymentTransportationOrder(System.Collections.Generic.List{System.Int32})">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.PaymentTransportationOrder(System.Collections.Generic.List{System.Int32})">
             <summary>
             Thanh toán đơn ký gửi cho user
             </summary>
             <param name="listId">Danh sách ID</param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.UpdateStaff(NhapHangV2.Request.TransportationOrderRequest)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.UpdateStaff(jeamin.Request.TransportationOrderRequest)">
             <summary>
             Cập nhật nhân viên sale 
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.ExportExcel(NhapHangV2.Entities.Search.TransportationOrderSearch)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.ExportExcel(jeamin.Entities.Search.TransportationOrderSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.TransportationOrderController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.TransportationOrderModel},NhapHangV2.Entities.Search.TransportationOrderSearch)">
+        <member name="M:jeamin.API.Controllers.TransportationOrderController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.TransportationOrderModel},jeamin.Entities.Search.TransportationOrderSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1398,56 +1398,56 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.UserController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.UpdateItem(NhapHangV2.Request.UserRequest)">
+        <member name="M:jeamin.API.Controllers.UserController.UpdateItem(jeamin.Request.UserRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.AddItem(NhapHangV2.Request.UserRequest)">
+        <member name="M:jeamin.API.Controllers.UserController.AddItem(jeamin.Request.UserRequest)">
             <summary>
             Thêm mới user
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.Get(NhapHangV2.Entities.Search.UserSearch)">
+        <member name="M:jeamin.API.Controllers.UserController.Get(jeamin.Entities.Search.UserSearch)">
             <summary>
             Lấy danh sách item phân trang
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.UpdateAvatarIMG(NhapHangV2.Request.UpdateAvatarRequest)">
+        <member name="M:jeamin.API.Controllers.UserController.UpdateAvatarIMG(jeamin.Request.UpdateAvatarRequest)">
             <summary>
             Cập nhật ảnh đại diện của tài khoản
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.ExportExcel(NhapHangV2.Entities.Search.UserSearch)">
+        <member name="M:jeamin.API.Controllers.UserController.ExportExcel(jeamin.Entities.Search.UserSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.UserController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.UserModel},NhapHangV2.Entities.Search.UserSearch)">
+        <member name="M:jeamin.API.Controllers.UserController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.UserModel},jeamin.Entities.Search.UserSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>
@@ -1455,49 +1455,49 @@
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.UserLevelController.UpdateItem(NhapHangV2.Request.UserLevelRequest)">
+        <member name="M:jeamin.API.Controllers.UserLevelController.UpdateItem(jeamin.Request.UserLevelRequest)">
             <summary>
             Cập nhật item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.VolumeFeeController.GetById(System.Int32)">
+        <member name="M:jeamin.API.Controllers.VolumeFeeController.GetById(System.Int32)">
             <summary>
             Lấy thông tin theo id
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WarehouseController.AddItem(NhapHangV2.Request.Catalogue.WarehouseRequest)">
+        <member name="M:jeamin.API.Controllers.WarehouseController.AddItem(jeamin.Request.Catalogue.WarehouseRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WarehouseController.UpdateItem(NhapHangV2.Request.Catalogue.WarehouseRequest)">
+        <member name="M:jeamin.API.Controllers.WarehouseController.UpdateItem(jeamin.Request.Catalogue.WarehouseRequest)">
             <summary>
             Cập nhật item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WarehouseFromController.AddItem(NhapHangV2.Request.Catalogue.WarehouseFromRequest)">
+        <member name="M:jeamin.API.Controllers.WarehouseFromController.AddItem(jeamin.Request.Catalogue.WarehouseFromRequest)">
             <summary>
             Thêm mới item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WarehouseFromController.UpdateItem(NhapHangV2.Request.Catalogue.WarehouseFromRequest)">
+        <member name="M:jeamin.API.Controllers.WarehouseFromController.UpdateItem(jeamin.Request.Catalogue.WarehouseFromRequest)">
             <summary>
             Cập nhật item
             </summary>
             <param name="request"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.UpdateStatus(NhapHangV2.Request.WithdrawRequest)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.UpdateStatus(jeamin.Request.WithdrawRequest)">
             <summary>
             Cập nhật trạng thái của lịch sử nạp tệ (User)
             2: Duyệt
@@ -1506,35 +1506,35 @@
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.UpdateItem(NhapHangV2.Request.WithdrawRequest)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.UpdateItem(jeamin.Request.WithdrawRequest)">
             <summary>
             Cập nhật thông tin item
             </summary>
             <param name="itemModel"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.GetInforBill(System.Int32)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.GetInforBill(System.Int32)">
             <summary>
             Xuất phiếu rút tiền
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.ExportExcel(NhapHangV2.Entities.Search.WithdrawSearch)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.ExportExcel(jeamin.Entities.Search.WithdrawSearch)">
             <summary>
             Xuất Excel
             </summary>
             <param name="baseSearch"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.GetTemplateFilePath(System.String)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.GetTemplateFilePath(System.String)">
             <summary>
             Lấy đường dẫn file template
             </summary>
             <param name="fileTemplateName"></param>
             <returns></returns>
         </member>
-        <member name="M:NhapHangV2.API.Controllers.WithdrawController.GetParameterReport(NhapHangV2.Utilities.PagedList{NhapHangV2.Models.WithdrawModel},NhapHangV2.Entities.Search.WithdrawSearch)">
+        <member name="M:jeamin.API.Controllers.WithdrawController.GetParameterReport(jeamin.Utilities.PagedList{jeamin.Models.WithdrawModel},jeamin.Entities.Search.WithdrawSearch)">
             <summary>
             Lấy thông số parameter truyền vào
             </summary>

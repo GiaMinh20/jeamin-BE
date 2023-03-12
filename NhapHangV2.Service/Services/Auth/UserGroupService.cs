@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using NhapHangV2.Service.Services.DomainServices;
+using jeamin.Service.Services.DomainServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -7,12 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NhapHangV2.Interface.UnitOfWork;
-using NhapHangV2.Interface.Services.Auth;
-using NhapHangV2.Entities.Auth;
-using NhapHangV2.Entities.Search;
+using jeamin.Interface.UnitOfWork;
+using jeamin.Interface.Services.Auth;
+using jeamin.Entities.Auth;
+using jeamin.Entities.Search;
 
-namespace NhapHangV2.Service.Services.Auth
+namespace jeamin.Service.Services.Auth
 {
     public class UserGroupService : CatalogueService<UserGroups, UserInGroupSearch>, IUserGroupService
     {

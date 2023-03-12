@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     public class AppSettings
     {

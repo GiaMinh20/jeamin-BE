@@ -1,5 +1,5 @@
-﻿using NhapHangV2.Interface.Services;
-using NhapHangV2.Utilities;
+﻿using jeamin.Interface.Services;
+using jeamin.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using System.Diagnostics;
 
-namespace NhapHangV2.Extensions
+namespace jeamin.Extensions
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
     public class AppAuthorize : AuthorizeAttribute, IAuthorizationFilter

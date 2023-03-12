@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.Report
+namespace jeamin.Entities.Report
 {
     public class MainOrderReportOverView
     {

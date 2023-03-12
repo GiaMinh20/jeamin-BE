@@ -1,5 +1,5 @@
 ﻿
-using NhapHangV2.Entities.DomainEntities;
+using jeamin.Entities.DomainEntities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhapHangV2.Entities.Catalogue
+namespace jeamin.Entities.Catalogue
 {
     public class Menu : AppDomainCatalogue
     {

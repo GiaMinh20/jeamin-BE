@@ -1,10 +1,10 @@
-﻿using NhapHangV2.Models.DomainModels;
+﻿using jeamin.Models.DomainModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace NhapHangV2.Models.Configuration
+namespace jeamin.Models.Configuration
 {
     /// <summary>
     /// Lịch sử OTP
