@@ -85,17 +85,8 @@ namespace jeamin.API.Controllers.Catalogue
                 throw new KeyNotFoundException("Bao lớn không tồn tại");
             switch (itemModel.Status ?? 0)
             {
-                case (int)StatusBigPackage.DangChuyenVe:
-                    updateSmallPackageResult = await ChangeSmallPackgeStatus(itemModel, (int)StatusSmallPackage.DaVeKhoTQ);
-                    if (!updateSmallPackageResult)
-                        throw new AppException("Cập nhật trạng thái mã vận đơn thất bại");
-                    break;
-                case (int)StatusBigPackage.DaNhanHang:
-                    updateSmallPackageResult = await ChangeSmallPackgeStatus(itemModel, (int)StatusSmallPackage.DaVeKhoVN);
-                    if (!updateSmallPackageResult)
-                        throw new AppException("Cập nhật trạng thái mã vận đơn thất bại");
-                    break;
                 case (int)StatusBigPackage.Huy:
+                    break;
                 default:
                     updateSmallPackageResult = await ChangeSmallPackgeStatus(itemModel, (int)StatusSmallPackage.DaHuy);
                     if (!updateSmallPackageResult)
